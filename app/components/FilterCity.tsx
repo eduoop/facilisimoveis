@@ -18,6 +18,7 @@ const FilterCity = () => {
 
     const findCityById = (cityId: string) => {
         const cityFinder = AllCites.filter(city => city.id === cityId)[0]
+        alert(cityFinder.name)
         if (cityFinder) {
             setCurrentCity(cityFinder)
         }
