@@ -8,9 +8,9 @@ import { useGlobalPropertiesContext } from '../contexts/Properties/PropertiesCon
 
 const FilterCity = () => {
 
-    const { setCity, setState, getProperties } = useGlobalPropertiesContext()
+    const { setCity, getProperties } = useGlobalPropertiesContext()
 
-    const [currentCiy, setCurrentCity] = useState<City>(AllCites[0])
+    const [currentCiy, setCurrentCity] = useState<City>(AllCites[4])
     const [currentState, setCurrentState] = useState<State>(AllStates[0])
 
     // Find the city in cities array
@@ -34,7 +34,6 @@ const FilterCity = () => {
     const searchProperties = async () => {
         setCity(currentCiy)
         getProperties(currentCiy.name)
-
         alert(currentCiy.name)
     }
 
