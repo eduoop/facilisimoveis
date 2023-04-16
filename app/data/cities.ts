@@ -3,7 +3,7 @@ import { City } from '../models/city.model';
 
 export const AllCites: City[] = [
     {
-        id: faker.datatype.uuid(),
+        id: "1",
         name: "Belo horizonte",
         smallName: "belo horizonte",
         abbreviation: "BH",
@@ -11,7 +11,7 @@ export const AllCites: City[] = [
         slug: "belo-horizonte",
     },
     {
-        id: faker.datatype.uuid(),
+        id: "2",
         name: "Uberlândia",
         smallName: "uberlândia",
         abbreviation: "UL",
@@ -19,7 +19,7 @@ export const AllCites: City[] = [
         slug: "uberlandia",
     },
     {
-        id: faker.datatype.uuid(),
+        id: "3",
         name: "Contagem",
         smallName: "contagem",
         abbreviation: "CT",
@@ -27,7 +27,7 @@ export const AllCites: City[] = [
         slug: "contagem",
     },
     {
-        id: faker.datatype.uuid(),
+        id: "4",
         name: "Juiz de Fora",
         smallName: "juiz de fora",
         abbreviation: "JF",
@@ -35,7 +35,7 @@ export const AllCites: City[] = [
         slug: "juiz-de-fora"
     },
     {
-        id: faker.datatype.uuid(),
+        id: "5",
         name: "Betim",
         smallName: "betim",
         abbreviation: "BT",
