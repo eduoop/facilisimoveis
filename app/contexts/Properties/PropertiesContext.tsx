@@ -28,7 +28,6 @@ export const PropertiesContextProvider = ({ children }: { children: any }) => {
     const [properties, setProperties] = useState<Property[]>([])
 
     const getProperties = async (currentCityName: string) => {
-        alert('buscar')
         const response = await fetch(`../../../../api/properties?state=${state.abbreviation}&city=${currentCityName}`, {
             method: 'GET',
         })

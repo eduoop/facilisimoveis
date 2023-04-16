@@ -1,5 +1,6 @@
 'use client'
-import React, { useState } from 'react'
+
+import React, { useEffect, useState } from 'react'
 import { State } from '../models/state.model'
 import { City } from '../models/city.model'
 import { AllCites } from '../data/cities'
@@ -10,7 +11,7 @@ const FilterCity = () => {
 
     const { setCity, getProperties } = useGlobalPropertiesContext()
 
-    const [currentCiy, setCurrentCity] = useState<City>(AllCites[4])
+    const [currentCiy, setCurrentCity] = useState<City>(AllCites[0])
     const [currentState, setCurrentState] = useState<State>(AllStates[0])
 
     // Find the city in cities array
@@ -34,9 +35,11 @@ const FilterCity = () => {
     const searchProperties = async () => {
         setCity(currentCiy)
         getProperties(currentCiy.name)
-        alert(currentCiy.name)
     }
 
+    useEffect(() => {
+        alert(`Mudou para:, ${currentCiy.name}`)
+    }, [currentCiy])
 
     return (
         <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
