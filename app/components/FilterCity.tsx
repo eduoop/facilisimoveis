@@ -39,8 +39,7 @@ const FilterCity = () => {
     }
 
     const mostAlert = (value: string) => {
-        alert(value)
-        alert(AllCites)
+        alert(AllCites.filter(city => city.id === value)[0])
     }
 
     return (
@@ -58,7 +57,7 @@ const FilterCity = () => {
 
                     <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => mostAlert(e.target.value)}>
                         {AllCites && AllCites.map((city, i) => (
-                            <option value={city.name} key={city.id + i}>{city.name}</option>
+                            <option value={city.id} key={city.id + i}>{city.name}</option>
                         ))}
                     </select>
 
