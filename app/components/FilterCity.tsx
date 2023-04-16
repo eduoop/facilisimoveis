@@ -39,8 +39,9 @@ const FilterCity = () => {
     }
 
     const mostAlert = (value: string) => {
-        const allCitysLocal = AllCites
-        alert(allCitysLocal.filter(city => city.id === value)[0].name)
+        AllCites.map((c) => {
+            alert(c.name)
+        })
     }
 
     return (
