@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "city": "Belo Horizonte",
+        "description": "um otiomo lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
+        "local": "Parque São João",
+        "neighborhood": "Centro",
+        "room": "2 quartos e 1 hidromassagem",
+        "stateAbbreviation": "MG",
+        "status": "Em construção",
+        "type": "Class",
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 2,
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/zRytW_CHELSEA_PPCPISCINADIURNA_16-02-2023.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/VmQwk_CHELSEA_PPCCHURRASQUEIRA_16-02-2023.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 2,
+                "title": "Lazer equipado",
+                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 3,
+                "title": "Dispositivos Economizadores de Energia",
+                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "city": "Juiz de Fora",
+        "description": "um otiomo lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
+        "local": "Parque São João",
+        "neighborhood": "Centro",
+        "room": "2 quartos e 1 hidromassagem",
+        "stateAbbreviation": "MG",
+        "status": "Em construção",
+        "type": "Class",
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 2,
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/zRytW_CHELSEA_PPCPISCINADIURNA_16-02-2023.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/VmQwk_CHELSEA_PPCCHURRASQUEIRA_16-02-2023.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 2,
+                "title": "Lazer equipado",
+                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 3,
+                "title": "Dispositivos Economizadores de Energia",
+                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "city": "Betim",
+        "description": "um otiomo lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
+        "local": "Parque São João",
+        "neighborhood": "Centro",
+        "room": "2 quartos e 1 hidromassagem",
+        "stateAbbreviation": "MG",
+        "status": "Em construção",
+        "type": "Class",
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 2,
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/zRytW_CHELSEA_PPCPISCINADIURNA_16-02-2023.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4430/VmQwk_CHELSEA_PPCCHURRASQUEIRA_16-02-2023.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 2,
+                "title": "Lazer equipado",
+                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 3,
+                "title": "Dispositivos Economizadores de Energia",
+                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            }
+        ]
+    }
+]

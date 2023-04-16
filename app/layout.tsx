@@ -1,6 +1,7 @@
 import './globals.css';
 import { GlobalContextProvider } from './Context/store';
 import Nav from './components/Nav';
+import FilterCity from './components/FilterCity';
 
 export default function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <GlobalContextProvider>
           <Nav/>
+          <FilterCity/>
           {children}
         </GlobalContextProvider>
       </body>
