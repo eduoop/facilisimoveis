@@ -21,7 +21,6 @@ const FilterCity = () => {
         if (cityFinder) {
             setCurrentCity(cityFinder)
         }
-        alert(`Chamou a função e acohu a cidade ${cityFinder.name}`)
     }
 
     // Find the state in cities array
@@ -43,7 +42,10 @@ const FilterCity = () => {
             <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
                 <h2 className='text-white font-bold text-[17px] '>Encontre seu imóvel:</h2>
                 <div className='flex items-center gap-3 mr-5 sm:flex-col sm:w-full sm:mr-0'>
-                    <select onChange={(e) => findStateById(e.target.value)} name="states" id="states" className='p-3 outline-none rounded-md w-44 sm:w-full'>
+                    <select onChange={(e) => {
+                        findStateById(e.target.value)
+                        alert(AllCites[3].name)
+                    }} name="states" id="states" className='p-3 outline-none rounded-md w-44 sm:w-full'>
                         {AllStates.map((state) => (
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
