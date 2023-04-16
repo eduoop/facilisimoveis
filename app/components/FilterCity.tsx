@@ -13,7 +13,6 @@ const FilterCity = () => {
 
     const [currentCiy, setCurrentCity] = useState<City>(AllCites[0])
     const [currentState, setCurrentState] = useState<State>(AllStates[0])
-    const allCitysLocal = AllCites
 
     // Find the city in cities array
 
@@ -40,6 +39,7 @@ const FilterCity = () => {
     }
 
     const mostAlert = (value: string) => {
+        const allCitysLocal = AllCites
         alert(allCitysLocal.filter(city => city.id === value)[0].name)
     }
 
