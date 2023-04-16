@@ -4,11 +4,11 @@ import { State } from '../models/state.model'
 import { City } from '../models/city.model'
 import { AllCites } from '../data/cities'
 import { AllStates } from '../data/states'
-import { useGlobalContext } from '../Context/store'
+import { useGlobalPropertiesContext } from '../contexts/Properties/PropertiesContext'
 
 const FilterCity = () => {
 
-    const { name, setName } = useGlobalContext()
+    const { setCity, setState, getProperties } = useGlobalPropertiesContext()
 
     const [currentCiy, setCurrentCity] = useState<City>()
     const [currentState, setCurrentState] = useState<State>()
@@ -33,11 +33,12 @@ const FilterCity = () => {
 
     const searchProperties = async () => {
         if (currentCiy) {
-            setName(currentCiy.name)
-            setName(currentCiy.name)
+            setCity(currentCiy)
+            getProperties(currentCiy.name)
         }
 
         if (currentState) {
+            setState(currentState)
         }
 
     }
