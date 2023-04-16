@@ -43,19 +43,20 @@ const FilterCity = () => {
 
     }
 
+
     return (
-        <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center '>
-            <div className='flex gap-3 items-center '>
+        <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
+            <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
                 <h2 className='text-white font-bold text-[17px] '>Encontre seu imóvel:</h2>
-                <div className='flex items-center gap-3 mr-5'>
-                    <select onChange={(e) => findStateById(e.target.value)} name="states" id="states" className='p-3 outline-none rounded-md w-44 '>
+                <div className='flex items-center gap-3 mr-5 sm:flex-col sm:w-full sm:mr-0'>
+                    <select onChange={(e) => findStateById(e.target.value)} name="states" id="states" className='p-3 outline-none rounded-md w-44 sm:w-full'>
                         {AllStates.map((state) => (
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
                     </select>
                     <select onChange={(e) => {
                         findCityById(e.target.value)
-                    }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 '>
+                    }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 sm:w-full'>
                         {AllCites.map((city) => (
                             <option key={city.id} value={city.id}>{city.name}</option>
                         ))}
@@ -63,7 +64,7 @@ const FilterCity = () => {
                 </div>
                 <button onClick={() => {
                     searchProperties()
-                }} className='p-3 px-4 outline-none rounded-md bg-[#00d38d] text-white font-bold '>Buscar</button>
+                }} className='p-3 px-4 outline-none rounded-md bg-[#00d38d] text-white font-bold sm:w-full'>Buscar</button>
             </div>
         </div>
     )
