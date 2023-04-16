@@ -40,7 +40,7 @@ const FilterCity = () => {
 
     const mostAlert = (value: string) => {
         AllCites.map((c) => {
-            alert(c.name)
+            alert(c.id)
         })
     }
 
