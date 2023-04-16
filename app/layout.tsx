@@ -18,6 +18,7 @@ export default function RootLayout({
       <body>
         <PropertiesContextProvider>
           <Nav/>
+          <FilterCity/>
           {children}
         </PropertiesContextProvider>
       </body>
