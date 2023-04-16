@@ -50,7 +50,7 @@ const FilterCity = () => {
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
                     </select>
-                    <select onChange={(e) => alert(e.target.value)}>
+                    <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => alert(e.target.value)}>
                         <option value="teste">teste</option>
                         <option value="opa">opa</option>
                         <option value="try">try</option>
