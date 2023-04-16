@@ -11,3 +11,10 @@ body {
 .react-multiple-carousel__arrow {
     z-index: 40 !important;
 }
+
+.root,
+#root,
+#docs-root {
+  --main-color: #006b3f;
+  --variant-color: #00D38D;
+}

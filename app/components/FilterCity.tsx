@@ -38,7 +38,7 @@ const FilterCity = () => {
     }
 
     return (
-        <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
+        <div className='w-full bg-primary h-24 flex items-center justify-center sm:h-auto'>
             <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
                 <h2 className='text-white font-bold text-[17px] '>Encontre seu imóvel:</h2>
                 <div className='flex items-center gap-3 mr-5 sm:flex-col sm:w-full sm:mr-0'>
@@ -66,7 +66,7 @@ const FilterCity = () => {
                 </div>
                 <button onClick={() => {
                     searchProperties()
-                }} className='p-3 px-4 outline-none rounded-md bg-[#00d38d] text-white font-bold sm:w-full'>Buscar</button>
+                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold sm:w-full'>Buscar</button>
             </div>
         </div>
     )

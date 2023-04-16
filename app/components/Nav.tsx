@@ -18,13 +18,13 @@ const Nav = () => {
 
         <ul className='flex items-center gap-5'>
           <li>
-            <Link className='font-semibold text-[#006b3f] text-lg duration-150 hover:text-green-500' href="/">Imóveis</Link>
+            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/">Imóveis</Link>
           </li>
           <li>
-            <Link className='font-semibold text-[#006b3f] text-lg duration-150 hover:text-green-500' href="/contact">Contato</Link>
+            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/contact">Contato</Link>
           </li>
           <li>
-            <Link className='font-semibold text-[#006b3f] text-lg duration-150 hover:text-green-500' href="/contact">Sobre nós</Link>
+            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/contact">Sobre nós</Link>
           </li>
         </ul>
 

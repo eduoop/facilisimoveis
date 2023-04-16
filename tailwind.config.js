@@ -22,7 +22,11 @@ module.exports = {
       },
       fontFamily: {
         'display': ['Nunito Sans',],
-      }
+      },
+      colors: {
+        'primary': "#006b3f",
+        'secondary': "#00D38D"
+      },
     },
   },
   plugins: [],
