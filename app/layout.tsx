@@ -1,5 +1,6 @@
 import './globals.css';
 import { GlobalContextProvider } from './Context/store';
+import Nav from './components/Nav';
 
 export default function RootLayout({
   children,
@@ -14,7 +15,10 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <GlobalContextProvider>{children}</GlobalContextProvider>
+        <GlobalContextProvider>
+          <Nav/>
+          {children}
+        </GlobalContextProvider>
       </body>
     </html>
   )
