@@ -35,7 +35,7 @@ const FilterCity = () => {
         setCity(currentCiy)
         getProperties(currentCiy.name)
 
-        alert("clicou no botão")
+        alert(currentCiy.name)
     }
 
 
