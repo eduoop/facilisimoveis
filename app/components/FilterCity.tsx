@@ -38,6 +38,10 @@ const FilterCity = () => {
         getProperties(currentCiy.name)
     }
 
+    const mostAlert = (value: string) => {
+        alert(value)
+    }
+
     return (
         <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
             <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
@@ -51,9 +55,9 @@ const FilterCity = () => {
                         ))}
                     </select>
 
-                    <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => findCityById(e.target.value)}>
+                    <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => mostAlert(e.target.value)}>
                         {AllCites && AllCites.map((city, i) => (
-                            <option value={city.id} key={city.id + i}>{city.name}</option>
+                            <option value={city.name} key={city.id + i}>{city.name}</option>
                         ))}
                     </select>
 
