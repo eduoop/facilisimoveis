@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className='flex justify-between w-full px-7 sm:hidden pt-2'>
+      <nav className='flex justify-between w-full px-7 bg-[#393737] sm:hidden pt-2 bg-banner-sm tablet:bg-banner-tablet laptop:bg-banner-md desktop:bg-banner-lg  bg-center'>
         <div className='flex justify-center items-center w-fit'>
           <Link href="/">
             <Image alt='Logo' src={Logo} className='w-20 h-20 cursor-pointer' />
@@ -31,14 +31,14 @@ const Nav = () => {
       
       </nav>
 
-      <nav className='justify-between items-center w-screen px-5 hidden sm:flex sm:w-full'>
+      <nav className='justify-between items-center w-screen px-5 hidden sm:flex sm:w-full bg-banner-sm'>
         <div className='flex justify-center items-center w-fit'>
           <Link href="/">
             <Image alt='Logo' src={Logo} className='w-20 h-20 cursor-pointer' />
           </Link>
         </div>
         <svg onClick={() => setOpen(true)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 cursor-pointer">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <path strokeLinecap="round" color="white" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </nav>
 

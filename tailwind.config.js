@@ -27,6 +27,12 @@ module.exports = {
         'primary': "#006b3f",
         'secondary': "#00D38D"
       },
+      backgroundImage: {
+        'banner-sm': "url('https://www.imagemhost.com.br/images/2023/04/16/correct-mobile.png')",
+        'banner-lg': "url('https://www.imagemhost.com.br/images/2023/04/16/Site-more.png')",
+        'banner-md': "url('https://www.imagemhost.com.br/images/2023/04/16/site-laptop.png')",
+        'banner-tablet': "url('https://www.imagemhost.com.br/images/2023/04/16/site-tablet.png')",
+      }
     },
   },
   plugins: [],
