@@ -5,14 +5,15 @@ type Differentials = {
 }
 
 export type Property = {
-    id: string,
+    id: number,
+    banner: string,
     status: "Lançamento" | "Em construção",
-    room: string,
+    complement: string,
     neighborhood: string,
     city: string,
+    cardImage: string,
     stateAbbreviation: string,
-    local: string,
-    type: string;
+    road: string,
     description: string;
     differentials: Differentials[];
     images: string[];

@@ -4,6 +4,7 @@ import { BiBed } from "react-icons/bi";
 import { AiOutlineCar } from "react-icons/ai";
 import { TbBath } from "react-icons/tb";
 import { Property } from "../models/property.model";
+import Link from 'next/link'
 
 type Props = {
   propriety: Property;
@@ -26,25 +27,25 @@ const Propriety = ({ propriety }: Props) => {
     <div className="w-full flex flex-col rounded-[14px] shadow-2xl">
       <div
         className={cardImage}
-        style={{ backgroundImage: `url('https://imoveis.mrv.com.br/upload/imagens/4292/375x215/20230217042115_OREGON_FACHADADIA_RFA3.jpg')` }}>
+        style={{ backgroundImage: `url('${propriety.cardImage}')` }}>
         <div className="shadow-lg bg-white py-1 px-2 leading-3 text-slate-900 flex items-center gap-3 rounded-md" style={{ position: "absolute", bottom: "25px", right: "50%", transform: "translate(50%, 50%)" }}>
           <div className="flex items-center gap-1">
-            <BiBed/>
+            <BiBed />
             <span className="text-[14px]">{propriety.countRooms}</span>
           </div>
           <div className="flex items-center gap-1">
-            <AiOutlineCar/>
+            <AiOutlineCar />
             <span className="text-[14px]">{propriety.countRooms}</span>
           </div>
           <div className="flex items-center gap-1">
-            <TbBath/>
+            <TbBath />
             <span className="text-[14px]">{propriety.countRooms}</span>
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-4 p-6">
         <div className="flex flex-col font-display items-center">
-          <h1 className="font-bold leading-7 text-[16px]">{propriety.local}</h1>
+          <h1 className="font-bold leading-7 text-[16px]">{propriety.road}</h1>
           <h2 className="font-medium leading-5">{propriety.city} - {propriety.stateAbbreviation}</h2>
           <small className="font-bold leading-5 text-lg text-[14px]">{propriety.neighborhood}</small>
         </div>
@@ -62,7 +63,9 @@ const Propriety = ({ propriety }: Props) => {
         </div>
 
         <div className="flex w-full justify-center items-center mt-4">
-          <button className="rounded-[14px] transition duration-150 hover:opacity-90 uppercase bg-primary py-3 w-full text-white font-semibold text-[15px]">Ver mais</button>
+          <Link className="w-full" href={`/property/${propriety.id}`}>
+            <button className="rounded-[14px] transition duration-150 hover:opacity-90 uppercase bg-primary py-3 w-full text-white font-semibold text-[15px]">Ver mais</button>
+          </Link>
         </div>
       </div>
     </div>
