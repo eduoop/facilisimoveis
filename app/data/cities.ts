@@ -1,5 +1,5 @@
-import { City } from '@/models/city.model';
 import { faker } from '@faker-js/faker';
+import { City } from '../models/city.model';
 
 export const AllCites: City[] = [
     {
