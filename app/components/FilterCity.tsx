@@ -44,29 +44,25 @@ const FilterCity = () => {
                 <div className='flex items-center gap-3 mr-5 sm:flex-col sm:w-full sm:mr-0'>
                     <select onChange={(e) => {
                         findStateById(e.target.value)
-                        alert(AllCites[3].name)
                     }} name="states" id="states" className='p-3 outline-none rounded-md w-44 sm:w-full'>
                         {AllStates.map((state) => (
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
                     </select>
 
-                    <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => alert(e.target.value)}>
-                        <option value="teste">teste</option>
-                        <option value="opa">opa</option>
-                        <option value="try">try</option>
+                    <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => findCityById(e.target.value)}>
                         {AllCites && AllCites.map((city, i) => (
-                            <option value={city.name} key={city.id + i}>{city.name}</option>
+                            <option value={city.id} key={city.id + i}>{city.name}</option>
                         ))}
                     </select>
 
-                    <select onChange={(e) => {
+                    {/* <select onChange={(e) => {
                         findCityById(e.target.value)
                     }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 sm:w-full'>
                         {AllCites.map((city) => (
                             <option key={city.id} value={city.id}>{city.name}</option>
                         ))}
-                    </select>
+                    </select> */}
                 </div>
                 <button onClick={() => {
                     searchProperties()
