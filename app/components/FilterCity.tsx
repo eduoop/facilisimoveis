@@ -21,6 +21,7 @@ const FilterCity = () => {
         if (cityFinder) {
             setCurrentCity(cityFinder)
         }
+        alert(`Chamou a função e acohu a cidade ${cityFinder.name}`)
     }
 
     // Find the state in cities array
@@ -36,10 +37,6 @@ const FilterCity = () => {
         setCity(currentCiy)
         getProperties(currentCiy.name)
     }
-
-    useEffect(() => {
-        alert(`Mudou para:, ${currentCiy.name}`)
-    }, [currentCiy])
 
     return (
         <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
