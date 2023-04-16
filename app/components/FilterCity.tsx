@@ -10,8 +10,8 @@ const FilterCity = () => {
 
     const { setCity, setState, getProperties } = useGlobalPropertiesContext()
 
-    const [currentCiy, setCurrentCity] = useState<City>()
-    const [currentState, setCurrentState] = useState<State>()
+    const [currentCiy, setCurrentCity] = useState<City>(AllCites[0])
+    const [currentState, setCurrentState] = useState<State>(AllStates[0])
 
     // Find the city in cities array
 
@@ -32,15 +32,10 @@ const FilterCity = () => {
     }
 
     const searchProperties = async () => {
-        if (currentCiy) {
-            setCity(currentCiy)
-            getProperties(currentCiy.name)
-        }
+        setCity(currentCiy)
+        getProperties(currentCiy.name)
 
-        if (currentState) {
-            setState(currentState)
-        }
-
+        alert("clicou no botão")
     }
 
 
