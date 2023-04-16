@@ -3,6 +3,11 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useGlobalPropertiesContext } from './contexts/Properties/PropertiesContext';
 import Propriety from './components/Propriety';
+import React, { useState } from 'react'
+import { AllStates } from './data/states';
+import { AllCites } from './data/cities';
+import { City } from './models/city.model';
+import { State } from './models/state.model';
 
 const Home = () => {
   const { city, properties } = useGlobalPropertiesContext()
@@ -26,8 +31,65 @@ const Home = () => {
     }
   }
 
+  const { setCity, setState, getProperties } = useGlobalPropertiesContext()
+
+  const [currentCiy, setCurrentCity] = useState<City>()
+  const [currentState, setCurrentState] = useState<State>()
+
+  // Find the city in cities array
+
+  const findCityById = (cityId: string) => {
+    const cityFinder = AllCites.filter(city => city.id === cityId)[0]
+    if (cityFinder) {
+      setCurrentCity(cityFinder)
+    }
+  }
+
+  // Find the state in cities array
+
+  const findStateById = (stateId: string) => {
+    const stateFinder = AllStates.filter(state => state.id === stateId)[0]
+    if (stateFinder) {
+      setCurrentState(stateFinder)
+    }
+  }
+
+  const searchProperties = async () => {
+    if (currentCiy) {
+      setCity(currentCiy)
+      getProperties(currentCiy.name)
+    }
+
+    if (currentState) {
+      setState(currentState)
+    }
+
+  }
+
   return (
     <div className='flex flex-col'>
+      <div className='w-full bg-[#006b3f] h-24 flex items-center justify-center sm:h-auto'>
+        <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
+          <h2 className='text-white font-bold text-[17px] '>Encontre seu imóvel:</h2>
+          <div className='flex items-center gap-3 mr-5 sm:flex-col sm:w-full sm:mr-0'>
+            <select onChange={(e) => findStateById(e.target.value)} name="states" id="states" className='p-3 outline-none rounded-md w-44 sm:w-full'>
+              {AllStates.map((state) => (
+                <option key={state.id} value={state.id}>{state.name}</option>
+              ))}
+            </select>
+            <select onChange={(e) => {
+              findCityById(e.target.value)
+            }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 sm:w-full'>
+              {AllCites.map((city) => (
+                <option key={city.id} value={city.id}>{city.name}</option>
+              ))}
+            </select>
+          </div>
+          <button onClick={() => {
+            searchProperties()
+          }} className='p-3 px-4 outline-none rounded-md bg-[#00d38d] text-white font-bold sm:w-full'>Buscar</button>
+        </div>
+      </div>
       <Carousel
         responsive={responsive}
         arrows={true} autoPlay={true}
