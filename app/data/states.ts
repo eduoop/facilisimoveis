@@ -1,5 +1,5 @@
-import { State } from "@/models/state.model";
 import { faker } from '@faker-js/faker';
+import { State } from '../models/state.model';
 
 export const AllStates: State[] = [
     {
