@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className='flex flex-col'>
-      <Carousel
+      {/* <Carousel
         responsive={responsive}
         arrows={true} autoPlay={true}
         infinite={true}
@@ -44,7 +44,7 @@ const Home = () => {
         <div className='w-screen cursor-pointer select-none'>
           <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/MG_BeloHorizonte_Milionarios_1920x420.webp" />
         </div>
-      </Carousel>
+      </Carousel> */}
 
       <div className='flex mt-6 justify-center items-center'>
         <h2 className='text-[#242625] text-4xl font-extrabold text-center font-display sm:text-2xl'>Imóveis à venda em {city.name}-{city.state}</h2>
