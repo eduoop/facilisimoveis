@@ -50,11 +50,16 @@ const FilterCity = () => {
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
                     </select>
+
                     <select className='p-3 outline-none rounded-md w-44 sm:w-full' onChange={(e) => alert(e.target.value)}>
                         <option value="teste">teste</option>
                         <option value="opa">opa</option>
                         <option value="try">try</option>
+                        {AllCites && AllCites.map((city, i) => (
+                            <option value={city.name} key={city.id + i}>{city.name}</option>
+                        ))}
                     </select>
+
                     <select onChange={(e) => {
                         findCityById(e.target.value)
                     }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 sm:w-full'>
