@@ -50,6 +50,11 @@ const FilterCity = () => {
                             <option key={state.id} value={state.id}>{state.name}</option>
                         ))}
                     </select>
+                    <select onChange={() => alert("esse vai")}>
+                        <option value="teste">teste</option>
+                        <option value="opa">opa</option>
+                        <option value="try">try</option>
+                    </select>
                     <select onChange={(e) => {
                         findCityById(e.target.value)
                     }} name="cites" id="cites" className='p-3 outline-none rounded-md w-44 sm:w-full'>

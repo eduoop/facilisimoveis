@@ -46,12 +46,6 @@ const Home = () => {
         </div>
       </Carousel>
 
-      <select onChange={() => alert("esse vai")}>
-        <option value="teste">teste</option>
-        <option value="opa">opa</option>
-        <option value="try">try</option>
-      </select>
-
       <div className='flex mt-6 justify-center items-center'>
         <h2 className='text-[#242625] text-4xl font-extrabold text-center font-display sm:text-2xl'>Imóveis à venda em {city.name}-{city.state}</h2>
       </div>
