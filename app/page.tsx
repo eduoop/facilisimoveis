@@ -36,7 +36,7 @@ const Home = () => {
       <div className='sm:hidden'>
         <Carousel
           responsive={responsive}
-          arrows={true} autoPlay={true}
+          arrows={true} 
           infinite={true}
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none'>
@@ -54,7 +54,7 @@ const Home = () => {
       <div className='hidden sm:block'>
         <Carousel
           responsive={responsive}
-          arrows={true} autoPlay={true}
+          arrows={true}
           infinite={true}
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none h-[260px]'>
