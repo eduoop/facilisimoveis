@@ -6,7 +6,7 @@ import Propriety from './components/Propriety';
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Banner from "../public/banner.png"
-import BannerSmallNew from "../public/new-mobile-banner.png"
+import BannerSmall from "../public/banner-small.png"
 
 
 const Home = () => {
@@ -58,7 +58,7 @@ const Home = () => {
           infinite={true}
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none h-[260px]'>
-            <Image alt='Banner' fill className='object-cover' style={{ pointerEvents: "none" }} src={BannerSmallNew} />
+            <Image alt='Banner' fill className='object-cover' style={{ pointerEvents: "none" }} src={BannerSmall} />
           </div>
           <div className='w-screen cursor-pointer select-none'>
             <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/mg_contagem_residencialcascais_20230131095222.webp" />
