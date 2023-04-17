@@ -24,8 +24,8 @@ module.exports = {
         'display': ['Nunito Sans',],
       },
       colors: {
-        'primary': "#006b3f",
-        'secondary': "#00D38D"
+        'primary': "#ffaa00",
+        'secondary': "#ffb628"
       },
       backgroundImage: {
         'banner-sm': "url('https://www.imagemhost.com.br/images/2023/04/16/correct-mobile.png')",

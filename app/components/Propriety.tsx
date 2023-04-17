@@ -2,7 +2,7 @@
 
 import { BiBed } from "react-icons/bi";
 import { AiOutlineCar } from "react-icons/ai";
-import { TbBath } from "react-icons/tb";
+import { MdOutlineShower } from "react-icons/md";
 import { Property } from "../models/property.model";
 import Link from 'next/link'
 
@@ -38,7 +38,7 @@ const Propriety = ({ propriety }: Props) => {
             <span className="text-[14px]">{propriety.countRooms}</span>
           </div>
           <div className="flex items-center gap-1">
-            <TbBath />
+            <MdOutlineShower />
             <span className="text-[14px]">{propriety.countRooms}</span>
           </div>
         </div>

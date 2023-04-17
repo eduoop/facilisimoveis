@@ -20,4 +20,5 @@ export type Property = {
     countRooms: number,
     countBathrooms: number,
     garages: number,
+    size: string,
 }

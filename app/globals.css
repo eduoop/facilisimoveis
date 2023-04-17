@@ -10,4 +10,5 @@ body {
 
 .react-multiple-carousel__arrow {
     z-index: 40 !important;
+    color: #ffaa00;
 }

@@ -66,7 +66,7 @@ const FilterCity = () => {
                 </div>
                 <button onClick={() => {
                     searchProperties()
-                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold sm:w-full'>Buscar</button>
+                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
             </div>
         </div>
     )
