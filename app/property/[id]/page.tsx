@@ -2,6 +2,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import { Property } from '../../models/property.model';
+import { FiArrowLeft } from 'react-icons/fi';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Banner from "../../../public/banner.png"
@@ -42,6 +43,9 @@ const Page = ({ params }: { params: any }) => {
 
     return (
         <div className='flex flex-col w-screen '>
+            <div className='w-full pt-2 pb-2 pl-7'>
+                <FiArrowLeft className='text-gray-primary text-3xl'/>
+            </div>
             <Carousel
                 responsive={responsive}
                 arrows={true}
@@ -51,7 +55,7 @@ const Page = ({ params }: { params: any }) => {
                 {imgs.map((imgUrl, index) => (
                     <Dialog.Root key={index} >
                         <Dialog.Trigger asChild>
-                            <div className='w-[670px] h-[400px] cursor-pointer select-none shadow-md'>
+                            <div className='w-[670px] sm:h-auto sm:w-full h-[400px] cursor-pointer select-none shadow-md'>
                                 <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
                             </div>
                         </Dialog.Trigger>

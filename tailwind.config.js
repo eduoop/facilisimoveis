@@ -25,7 +25,8 @@ module.exports = {
       },
       colors: {
         'primary': "#ffaa00",
-        'secondary': "#ffb628"
+        'secondary': "#ffb628",
+        'gray-primary': "#3A3A3A"
       },
       backgroundImage: {
         'banner-sm': "url('https://www.imagemhost.com.br/images/2023/04/16/correct-mobile.png')",
