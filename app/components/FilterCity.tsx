@@ -6,6 +6,7 @@ import { City } from '../models/city.model'
 import { AllCites } from '../data/cities'
 import { AllStates } from '../data/states'
 import { useGlobalPropertiesContext } from '../contexts/Properties/PropertiesContext'
+import Link from 'next/link'
 
 const FilterCity = () => {
 
@@ -64,9 +65,11 @@ const FilterCity = () => {
                         ))}
                     </select> */}
                 </div>
-                <button onClick={() => {
-                    searchProperties()
-                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
+                <Link href="/">
+                    <button onClick={() => {
+                        searchProperties()
+                    }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
+                </Link>
             </div>
         </div>
     )
