@@ -64,8 +64,7 @@ const Page = ({ params }: { params: any }) => {
                     {imgs.map((imgUrl, index) => (
                         <Dialog.Root key={index} >
                             <Dialog.Trigger asChild>
-                                <div className='w-full h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-[670px] desktop:h-[400px]
-                              cursor-pointer select-none shadow-md'>
+                                <div className='max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-[670px] desktop:h-[400px] cursor-pointer select-none shadow-md '>
                                     <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
                                 </div>
                             </Dialog.Trigger>

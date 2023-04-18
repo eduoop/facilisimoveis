@@ -64,7 +64,7 @@ const Propriety = ({ propriety }: Props) => {
 
         <div className="flex w-full justify-center items-center mt-4">
           <Link className="w-full" href={`/property/${propriety.id}`}>
-            <button className="rounded-[14px] transition duration-150 hover:opacity-90 uppercase bg-primary py-3 w-full text-white font-semibold text-[15px]">Ver mais</button>
+            <button className="shadow-md rounded-md transition text-slate-900 duration-150 hover:opacity-90 bg-primary py-2 w-full font-bold text-[18px]">Ver mais</button>
           </Link>
         </div>
       </div>
