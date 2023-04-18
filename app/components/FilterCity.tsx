@@ -65,7 +65,7 @@ const FilterCity = () => {
                         ))}
                     </select> */}
                 </div>
-                <Link href="/">
+                <Link href="/" className='w-full'>
                     <button onClick={() => {
                         searchProperties()
                     }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
