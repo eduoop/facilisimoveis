@@ -44,7 +44,7 @@ const Page = ({ params }: { params: any }) => {
     return (
         <div className='flex flex-col w-screen '>
             <div className='w-full pt-2 pb-2 pl-7'>
-                <FiArrowLeft className='text-gray-primary text-3xl'/>
+                <FiArrowLeft className='text-gray-primary text-3xl' />
             </div>
             <Carousel
                 responsive={responsive}
@@ -55,7 +55,11 @@ const Page = ({ params }: { params: any }) => {
                 {imgs.map((imgUrl, index) => (
                     <Dialog.Root key={index} >
                         <Dialog.Trigger asChild>
-                            <div className='w-[670px] sm:h-auto sm:w-full h-[400px] cursor-pointer select-none shadow-md'>
+                            {/* <div className='w-[670px] sm:h-auto sm:w-full h-[400px] cursor-pointer select-none shadow-md'>
+                                <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
+                            </div> */}
+                            <div className='w-full h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[400px] desktop:w-[670px] desktop:h-[400px]
+                            cursor-pointer select-none shadow-md'>
                                 <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
                             </div>
                         </Dialog.Trigger>
