@@ -7,7 +7,6 @@ import 'react-multi-carousel/lib/styles.css';
 import Banner from "../../../public/banner.png"
 import Image from 'next/image';
 import styles from "../../styles/styles.module.css"
-import ViewImage from '../../components/ViewImage';
 import * as Dialog from '@radix-ui/react-dialog';
 
 const Page = ({ params }: { params: any }) => {
