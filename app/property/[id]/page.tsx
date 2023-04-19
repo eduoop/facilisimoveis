@@ -6,11 +6,8 @@ import { IoLinkOutline } from 'react-icons/io5';
 import { HiOutlineMap, HiOutlinePhotograph } from 'react-icons/hi';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Banner from "../../../public/banner.png"
-import Image from 'next/image';
 import styles from "../../styles/styles.module.css"
 import * as Dialog from '@radix-ui/react-dialog';
-import Link from 'next/link';
 
 const Page = ({ params }: { params: any }) => {
 
