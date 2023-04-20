@@ -54,7 +54,7 @@ const Page = ({ params }: { params: any }) => {
     return (
         <div className='flex flex-col w-screen'>
             {currentView === "photos" &&
-                <div className='relative'>
+                <div className='relative hidden sm:block'>
                     <div onClick={() => {
                         toast.success("Link copiado!")
                         navigator.clipboard.writeText(`https://facilisimoveis.com.br/property/${params.id}`)
