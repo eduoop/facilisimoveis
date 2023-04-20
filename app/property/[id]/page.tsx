@@ -7,6 +7,7 @@ import { HiOutlineMap, HiOutlinePhotograph } from 'react-icons/hi';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import styles from "../../styles/styles.module.css"
+import toast, { Toaster } from 'react-hot-toast';
 import * as Dialog from '@radix-ui/react-dialog';
 
 const Page = ({ params }: { params: any }) => {
@@ -79,7 +80,7 @@ const Page = ({ params }: { params: any }) => {
                 </Carousel>
             }
 
-            { currentView === "maps" &&
+            {currentView === "maps" &&
                 <div className='w-full flex items-center justify-center h-60'>
                     Em construção
                 </div>
@@ -92,10 +93,14 @@ const Page = ({ params }: { params: any }) => {
                         <button onClick={() => changeActive("maps")} className={currentView === "maps" ? active : notActive}><HiOutlineMap fontSize={20} /> Ver Mapa</button>
                     </div>
                     <div className='block sm:hidden'>
-                        <button className='flex items-center gap-2 font-semibold outline-none border-none py-2 px-5 rounded-md text-[14px]'><IoLinkOutline fontSize={22} /> Compartilhar</button>
+                        <button onClick={() => {
+                            toast.success("Link copiado!")
+                            navigator.clipboard.writeText(`https://facilisimoveis.com.br/property/${params.id}`)
+                        }} className='flex items-center gap-2 font-semibold outline-none border-none py-2 px-5 rounded-md text-[14px]'><IoLinkOutline fontSize={22} /> Compartilhar</button>
                     </div>
                 </div>
             </div>
+            <div className='w-full h-[1px] bg-zinc-400/30 my-4' />
         </div>
     )
 }
