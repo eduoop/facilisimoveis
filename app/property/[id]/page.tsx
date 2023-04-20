@@ -3,8 +3,9 @@
 import React, { useEffect, useState } from 'react'
 import { Property } from '../../models/property.model';
 import { IoLinkOutline } from 'react-icons/io5';
-import { HiOutlineMap, HiOutlinePhotograph } from 'react-icons/hi';
 import Carousel from 'react-multi-carousel';
+import { HiOutlineMap, HiOutlinePhotograph } from 'react-icons/hi';
+import { RiShareFill } from 'react-icons/ri';
 import 'react-multi-carousel/lib/styles.css';
 import styles from "../../styles/styles.module.css"
 import toast, { Toaster } from 'react-hot-toast';
@@ -53,31 +54,40 @@ const Page = ({ params }: { params: any }) => {
     return (
         <div className='flex flex-col w-screen'>
             {currentView === "photos" &&
-                <Carousel
-                    responsive={responsive}
-                    arrows={true}
-                    infinite={true}
-                    draggable={false}
-                    pauseOnHover={true}>
-                    {imgs.map((imgUrl, index) => (
-                        <Dialog.Root key={index} >
-                            <Dialog.Trigger asChild>
-                                <div className='max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-[670px] desktop:h-[400px] cursor-pointer select-none shadow-md '>
-                                    <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
-                                </div>
-                            </Dialog.Trigger>
-                            <Dialog.Portal>
-                                <Dialog.Overlay className={styles.DialogOverlay} />
-                                <Dialog.Content className={styles.DialogContent}>
-                                    <div className='w-full h-full' style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "bottom" }}></div>
-                                    <Dialog.Close asChild>
-                                        <button className='absolute top-[25px] right-[25px] bg-zinc-800/70 h-8 w-8 flex items-center justify-center rounded-full text-white border-none outline-none font-semibold text-lg shadow-md transition duration-200 hover:bg-zinc-800'>X</button>
-                                    </Dialog.Close>
-                                </Dialog.Content>
-                            </Dialog.Portal>
-                        </Dialog.Root>
-                    ))}
-                </Carousel>
+                <div className='relative'>
+                    <div onClick={() => {
+                        toast.success("Link copiado!")
+                        navigator.clipboard.writeText(`https://facilisimoveis.com.br/property/${params.id}`)
+                    }} className='absolute top-[20px] right-[20px] bg-zinc-800/80 p-2 rounded-md z-40'>
+                        <RiShareFill color='white' fontSize={20} />
+                    </div>
+                    <Carousel
+                        responsive={responsive}
+                        arrows={true}
+                        infinite={true}
+                        draggable={false}
+                        pauseOnHover={true}>
+                        {imgs.map((imgUrl, index) => (
+                            <Dialog.Root key={index} >
+                                <Dialog.Trigger asChild>
+                                    <div className='max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-[670px] desktop:h-[400px] cursor-pointer select-none shadow-md '>
+                                        <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
+                                    </div>
+                                </Dialog.Trigger>
+                                <Dialog.Portal>
+                                    <Dialog.Overlay className={styles.DialogOverlay} />
+                                    <Dialog.Content className={styles.DialogContent}>
+                                        <div className='w-full h-full' style={{ backgroundImage: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "bottom" }}></div>
+                                        <Dialog.Close asChild>
+                                            <button className='absolute top-[25px] right-[25px] bg-zinc-800/70 h-8 w-8 flex items-center justify-center rounded-full text-white border-none outline-none font-semibold text-lg shadow-md transition duration-200 hover:bg-zinc-800'>X</button>
+                                        </Dialog.Close>
+                                    </Dialog.Content>
+                                </Dialog.Portal>
+                            </Dialog.Root>
+                        ))}
+                    </Carousel>
+                </div>
+
             }
 
             {currentView === "maps" &&
@@ -100,9 +110,6 @@ const Page = ({ params }: { params: any }) => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-[1px] bg-zinc-400/30 my-4' />
-
-         
         </div>
     )
 }
