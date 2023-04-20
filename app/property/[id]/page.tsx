@@ -101,6 +101,15 @@ const Page = ({ params }: { params: any }) => {
                 </div>
             </div>
             <div className='w-full h-[1px] bg-zinc-400/30 my-4' />
+
+            <div className='w-screen'>
+                <div className='w-[90%] flex flex-col'>
+                    <div>
+                        <h1>H1 teste de h1 para ver se quebra</h1>
+                        <h2>H2 teste de h1 para ver se quebra</h2>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
