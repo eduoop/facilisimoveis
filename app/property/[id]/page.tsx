@@ -116,7 +116,7 @@ const Page = ({ params }: { params: any }) => {
             <div className='w-screen h-[1px] bg-zinc-800/10 my-5' />
             {property &&
                 <div className='w-screen overflow-x-hidden flex items-center justify-center'>
-                    <div className='w-[90%] max-w-[1250px] flex justify-between gap-9 mb-5 sm:flex-col'>
+                    <div className='w-[90%] max-w-[1250px] flex justify-between gap-9 sm:flex-col'>
                         {/* Left side div */}
                         <div className='flex flex-col w-[60%] sm:w-full'>
                             <div className='flex flex-col w-full'>
@@ -171,6 +171,18 @@ const Page = ({ params }: { params: any }) => {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />
+
+                            {/* Property description */}
+
+                            <div>
+                                <h1 className='font-display font-bold text-[20px] text-slate-950 mb-3'>
+                                    Descrição do imóvel
+                                </h1>
+
+                                <div>{property.description}</div>
+                            </div>
                         </div>
 
                         {/* Right side div */}
@@ -187,7 +199,6 @@ const Page = ({ params }: { params: any }) => {
                     </div>
                 </div>
             }
-
         </div>
     )
 }

@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import FilterCity from './components/FilterCity';
 import { PropertiesContextProvider } from './contexts/Properties/PropertiesContext';
 import toast, { Toaster } from 'react-hot-toast';
+import Footer from './components/Footer';
 
 export default function RootLayout({
   children,
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Toaster />
           {children}
         </PropertiesContextProvider>
+        <Footer/>
       </body>
     </html>
   )
