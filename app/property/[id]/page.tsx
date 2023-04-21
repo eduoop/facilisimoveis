@@ -54,11 +54,11 @@ const Page = ({ params }: { params: any }) => {
     return (
         <div className='flex flex-col w-screen'>
             {currentView === "photos" &&
-                <div className='relative hidden sm:block'>
+                <div className='relative '>
                     <div onClick={() => {
                         toast.success("Link copiado!")
                         navigator.clipboard.writeText(`https://facilisimoveis.com.br/property/${params.id}`)
-                    }} className='absolute top-[20px] right-[20px] bg-zinc-800/80 p-2 rounded-md z-40'>
+                    }} className='absolute hidden sm:block top-[20px] right-[20px] bg-zinc-800/80 p-2 rounded-md z-40'>
                         <RiShareFill color='white' fontSize={20} />
                     </div>
                     <Carousel
@@ -110,6 +110,18 @@ const Page = ({ params }: { params: any }) => {
                     </div>
                 </div>
             </div>
+            <div className='w-screen h-[1px] bg-zinc-800/30 my-5'/>
+            {property &&
+                <div className='w-screen overflow-x-hidden flex items-center justify-center'>
+                    <div className='w-[90%]'>
+                        <div className='flex flex-col'>
+                            <h1 className='font-display font-bold text-[20px] text-slate-950'>{property.residential} <br /> {property.neighborhood} - {property.stateAbbreviation}</h1>
+                            <h2></h2>
+                        </div>
+                    </div>
+                </div>
+            }
+
         </div>
     )
 }

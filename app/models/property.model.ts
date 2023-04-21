@@ -10,6 +10,7 @@ export type Property = {
     status: "Lançamento" | "Em construção",
     complement: string,
     neighborhood: string,
+    residential: string,
     number?: number,
     city: string,
     cardImage: string,
