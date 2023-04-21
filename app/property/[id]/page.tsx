@@ -2,7 +2,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import { Property } from '../../models/property.model';
-import { IoLinkOutline } from 'react-icons/io5';
+import { IoCarOutline, IoLinkOutline } from 'react-icons/io5';
 import Carousel from 'react-multi-carousel';
 import { HiOutlineMap, HiOutlinePhotograph } from 'react-icons/hi';
 import { RiShareFill } from 'react-icons/ri';
@@ -10,6 +10,9 @@ import 'react-multi-carousel/lib/styles.css';
 import styles from "../../styles/styles.module.css"
 import toast, { Toaster } from 'react-hot-toast';
 import * as Dialog from '@radix-ui/react-dialog';
+import { BiBed, BiBuildings, BiRuler } from 'react-icons/bi';
+import { MdOutlineShower } from 'react-icons/md';
+import Link from 'next/link';
 
 const Page = ({ params }: { params: any }) => {
 
@@ -47,7 +50,7 @@ const Page = ({ params }: { params: any }) => {
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 1,
         }
     }
 
@@ -97,7 +100,7 @@ const Page = ({ params }: { params: any }) => {
             }
 
             <div className='w-full flex justify-center items-center mt-3'>
-                <div className='flex justify-between items-center w-[90%] sm:w-full sm:justify-center'>
+                <div className='flex justify-between items-center w-[90%] max-w-[1250px] sm:w-full sm:justify-center'>
                     <div className='flex items-center gap-7'>
                         <button onClick={() => changeActive("photos")} className={currentView === "photos" ? active : notActive}><HiOutlinePhotograph fontSize={20} /> Ver Fotos ({property && property.images.length})</button>
                         <button onClick={() => changeActive("maps")} className={currentView === "maps" ? active : notActive}><HiOutlineMap fontSize={20} /> Ver Mapa</button>
@@ -106,17 +109,80 @@ const Page = ({ params }: { params: any }) => {
                         <button onClick={() => {
                             toast.success("Link copiado!")
                             navigator.clipboard.writeText(`https://facilisimoveis.com.br/property/${params.id}`)
-                        }} className='flex items-center gap-2 font-semibold outline-none border-none py-2 px-5 rounded-md text-[14px]'><IoLinkOutline fontSize={22} /> Compartilhar</button>
+                        }} className='flex items-center gap-2 font-semibold outline-none border-none py-2 rounded-md text-[14px]'><IoLinkOutline fontSize={22} /> Compartilhar</button>
                     </div>
                 </div>
             </div>
-            <div className='w-screen h-[1px] bg-zinc-800/30 my-5'/>
+            <div className='w-screen h-[1px] bg-zinc-800/10 my-5' />
             {property &&
                 <div className='w-screen overflow-x-hidden flex items-center justify-center'>
-                    <div className='w-[90%]'>
-                        <div className='flex flex-col'>
-                            <h1 className='font-display font-bold text-[20px] text-slate-950'>{property.residential} <br /> {property.neighborhood} - {property.stateAbbreviation}</h1>
-                            <h2></h2>
+                    <div className='w-[90%] max-w-[1250px] flex justify-between gap-9 mb-5 sm:flex-col'>
+                        {/* Left side div */}
+                        <div className='flex flex-col w-[60%] sm:w-full'>
+                            <div className='flex flex-col w-full'>
+                                <h1 className='font-display font-bold text-[20px] text-slate-950'>{property.residential} <br /> {property.neighborhood} - {property.stateAbbreviation}</h1>
+                                <h2>{property.road} - {property.neighborhood} - {property.city}/{property.stateAbbreviation}</h2>
+                            </div>
+
+                            <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />
+
+                            {/* List items of property */}
+
+                            <div>
+                                <h1 className='font-display font-bold text-[20px] text-slate-950 mb-3'>
+                                    Informações do imóvel
+                                </h1>
+
+                                <div className='flex flex-wrap gap-10'>
+                                    <div className='flex gap-2'>
+                                        <BiRuler fontSize={24} />
+                                        <div className='flex flex-col'>
+                                            <h2 className='text-slate-950 font-bold leading-5'>Área</h2>
+                                            <h3>{property.size}</h3>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-2'>
+                                        <MdOutlineShower fontSize={24} />
+                                        <div className='flex flex-col'>
+                                            <h2 className='text-slate-950 font-bold leading-5'>Banheiros</h2>
+                                            <h3>{property.countBathrooms}</h3>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-2'>
+                                        <BiBuildings fontSize={24} />
+                                        <div className='flex flex-col'>
+                                            <h2 className='text-slate-950 font-bold leading-5'>Estágio</h2>
+                                            <h3>{property.status}</h3>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-2'>
+                                        <BiBed fontSize={24} />
+                                        <div className='flex flex-col'>
+                                            <h2 className='text-slate-950 font-bold leading-5'>Quartos</h2>
+                                            <h3>{property.countRooms}</h3>
+                                        </div>
+                                    </div>
+                                    <div className='flex gap-2'>
+                                        <IoCarOutline fontSize={24} />
+                                        <div className='flex flex-col'>
+                                            <h2 className='text-slate-950 font-bold leading-5'>Vagas</h2>
+                                            <h3>{property.garages}</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Right side div */}
+                        <div className='flex flex-col w-[40%] sm:w-full'>
+                            <div className='p-3 border-2 border-solid border-primary rounded-md flex flex-col'>
+                                <h2 className='font-display font-bold text-[22px] text-slate-950'>Tem interesse?</h2>
+                                <small className='font-display font-semibold text-[14px] text-slate-950'>Entre em contato conosco para saber mais sobre o imóvel ou efetuar <br /> sua compra de forma simples</small>
+                                <a className='flex transition duration-200 items-center gap-2 border-solid border-2 border-primary font-bold outline-none w-full justify-center bg-primary py-3 shadow-lg rounded-md mt-6 hover:bg-primary/80 hover:shadow-none'
+                                    href="https://wa.me/3198825154"
+                                    target='_blank'
+                                    rel="noreferrer">Contatar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
