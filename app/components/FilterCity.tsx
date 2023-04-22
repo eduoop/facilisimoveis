@@ -43,7 +43,7 @@ const FilterCity = () => {
     }
 
     useEffect(() => {
-        console.log(pathname)
+        console.log("Render")
     }, [])
 
     return (
