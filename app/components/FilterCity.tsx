@@ -69,7 +69,6 @@ const FilterCity = () => {
                 </div>
                 <button onClick={() => {
                     searchProperties()
-                    router.push("/")
                     // eslint-disable-next-line react-hooks/rules-of-hooks
                 }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
             </div>
