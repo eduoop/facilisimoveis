@@ -1,11 +1,13 @@
+"use client"
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io5'
-import { TfiLinkedin } from 'react-icons/tfi'
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear()
 
   return (
     <div className='w-screen bg-gray-primary flex justify-center flex-col items-center mt-12'>
@@ -33,7 +35,7 @@ const Footer = () => {
       </div>
       {/* Copy */}
       <div className='flex justify-center items-center bg-zinc-800 w-full mt-4 py-3'>
-        <h2 className='text-white/80'>Facilis imóveis &copy; 2023</h2>
+        <h2 className='text-white/80'>Facilis imóveis &copy; {currentYear}</h2>
       </div>
     </div>
   )
