@@ -37,8 +37,8 @@ export const PropertiesContextProvider = ({ children }: { children: any }) => {
     }
 
     useEffect(() => {
-        getProperties("Belo Horizonte")
-    }, [])
+        console.log("Render context")
+      }, [])
 
     return (
         <GlobalContext.Provider value={{ city, getProperties, properties, setCity, setProperties, setState, state }}>

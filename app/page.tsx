@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useGlobalPropertiesContext } from './contexts/Properties/PropertiesContext';
 import Propriety from './components/Propriety';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Banner from "../public/banner.png"
 import BannerSmall from "../public/banner-small.png"
@@ -30,6 +30,10 @@ const Home = () => {
       items: 1
     }
   }
+
+  useEffect(() => {
+    console.log("Render home")
+  }, [])
 
   return (
     <div className='flex flex-col'>
@@ -59,6 +63,12 @@ const Home = () => {
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none h-[260px]'>
             <Image alt='Banner' fill className='object-cover' style={{ pointerEvents: "none" }} src={BannerSmall} />
+          </div>
+          <div className='w-screen cursor-pointer select-none'>
+            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/mg_contagem_residencialcascais_20230131095222.webp" />
+          </div>
+          <div className='w-screen cursor-pointer select-none'>
+            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/MG_BeloHorizonte_Milionarios_1920x420.webp" />
           </div>
         </Carousel>
       </div>

@@ -42,6 +42,10 @@ const FilterCity = () => {
         getProperties(currentCiy.name)
     }
 
+    useEffect(() => {
+        console.log("Render filter")
+      }, [])
+
     return (
         <div className='w-screen bg-[#3A3A3A] h-24 flex items-center justify-center sm:h-auto'>
             <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
