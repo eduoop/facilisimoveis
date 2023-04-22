@@ -191,7 +191,7 @@ const Page = ({ params }: { params: any }) => {
                                 <h2 className='font-display font-bold text-[22px] text-slate-950'>Tem interesse?</h2>
                                 <small className='font-display font-semibold text-[14px] text-slate-950'>Entre em contato conosco para saber mais sobre o imóvel ou efetuar <br /> sua compra de forma simples</small>
                                 <a className='flex transition duration-200 items-center gap-2 border-solid border-2 border-primary font-bold outline-none w-full justify-center bg-primary py-3 shadow-lg rounded-md mt-6 hover:bg-primary/80 hover:shadow-none'
-                                    href="https://wa.me/3182949538"
+                                    href="https://wa.me/3182849538"
                                     target='_blank'
                                     rel="noreferrer">Contatar</a>
                             </div>

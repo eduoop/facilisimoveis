@@ -9,7 +9,7 @@ const Page = () => {
 
                 <div className='flex flex-col p-5 border-4 border-solid border-primary rounded-md'> 
                     <h2 className='text-4xl text-slate-950 font-display font-extrabold'>Ficou com alguma dúvida?</h2>
-                    <a href='https://wa.me/3182949538' target='_blank' className='flex transition duration-200 items-center gap-2 border-solid border-2 border-primary font-bold outline-none w-full justify-center bg-primary text-slate-950 py-3 shadow-lg rounded-md mt-6 text-xl hover:bg-primary/80 hover:shadow-none' rel="noreferrer">Contate-nos</a>
+                    <a href='https://wa.me/3182849538' target='_blank' className='flex transition duration-200 items-center gap-2 border-solid border-2 border-primary font-bold outline-none w-full justify-center bg-primary text-slate-950 py-3 shadow-lg rounded-md mt-6 text-xl hover:bg-primary/80 hover:shadow-none' rel="noreferrer">Contate-nos</a>
                 </div>
             </div>
         </div>

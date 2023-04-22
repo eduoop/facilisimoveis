@@ -21,7 +21,7 @@ const Footer = () => {
           <a href='https://www.facebook.com/facilis.imoveis/' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
             <FaFacebookF fontSize={20} />
           </a>
-          <a href='https://wa.me/3182949538' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
+          <a href='https://wa.me/3182849538' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
             <IoLogoWhatsapp fontSize={23} />
           </a>
         </div>
