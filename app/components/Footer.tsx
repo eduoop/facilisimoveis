@@ -7,8 +7,6 @@ import { TfiLinkedin } from 'react-icons/tfi'
 
 const Footer = () => {
 
-  const currentYear = new Date().getFullYear()
-
   return (
     <div className='w-screen bg-gray-primary flex justify-center flex-col items-center mt-12'>
       <div className='max-w-[1250px] flex flex-col'>
