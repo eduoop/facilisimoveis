@@ -74,13 +74,10 @@ const FilterCity = () => {
                     </select> */}
                 </div>
                 {pathname !== "/" ?
-                    <Link href="/contact" className='w-full'>
+                    <Link href="/" className='w-full'>
                         <button onClick={() => {
                             searchProperties()
                             // eslint-disable-next-line react-hooks/rules-of-hooks
-                            if (pathname !== "/") {
-                                router.push("/contact")
-                            }
                         }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
                     </Link>
                     :
