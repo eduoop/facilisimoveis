@@ -6,9 +6,7 @@ type Differentials = {
 
 export type Property = {
     id: number,
-    banner: string,
-    status: "Lançamento" | "Em construção",
-    complement: string,
+    status: string,
     neighborhood: string,
     residential: string,
     number?: number,

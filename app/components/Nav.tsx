@@ -24,7 +24,7 @@ const Nav = () => {
             <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/contact">Contato</Link>
           </li>
           <li>
-            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/contact">Sobre nós</Link>
+            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/about">Sobre nós</Link>
           </li>
         </ul>
 
@@ -38,12 +38,12 @@ const Nav = () => {
           </Link>
         </div>
         <svg onClick={() => setOpen(true)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 cursor-pointer">
-          <path strokeLinecap="round" color="white" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          <path strokeLinecap="round" className="text-gray-primary" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
       </nav>
 
       {open === true &&
-        <div className="bg-[#006b3f] h-screen w-screen top-0 right-0 fixed z-50">
+        <div className="bg-gray-primary h-screen w-screen top-0 right-0 fixed z-50">
           <nav className="flex w-full items-center justify-center h-full relative">
 
             <svg onClick={() => setOpen(false)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 cursor-pointer absolute top-[52px] right-[25px] text-white">
@@ -58,7 +58,7 @@ const Nav = () => {
                 <Link className='font-semibold text-center text-white text-xl w-full cursor-pointer duration-150 hover:text-white-500 hover:bg-emerald-800 py-5' href="/contact">Contato</Link>
               </li>
               <li onClick={() => setOpen(false)} className="w-full flex items-center justify-center text-center">
-                <Link className='font-semibold text-center text-white text-xl w-full cursor-pointer duration-150 hover:text-white-500 hover:bg-emerald-800 py-5' href="/contact">Sobre nós</Link>
+                <Link className='font-semibold text-center text-white text-xl w-full cursor-pointer duration-150 hover:text-white-500 hover:bg-emerald-800 py-5' href="/about">Sobre nós</Link>
               </li>
             </ul>
           </nav>

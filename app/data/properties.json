@@ -1,130 +1,288 @@
 [
     {
         "id": 1,
-        "banner": "https://imoveis.mrv.com.br/upload/imagens/4203/1920x767/RESIDENCIAL-CASCAIS_PE_FACHADA_2022_11_23.webp?v1",
-        "city": "Belo Horizonte",
-        "description": "<strong>um otiomo</strong> lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
-        "road": "Parque São João",
+        "city": "Ribeirão das Neves",
+        "description": "Apartamentos de 2 quartos na Região Central, em condomínio fechado. Segurança, tranquilidade, conforto e área de lazer. Aqui a sua família pode se divertir em qualquer momento.",
+        "road": "Rua Adir Alves de Lima",
         "neighborhood": "Centro",
-        "complement": "2 quartos e 1 hidromassagem",
         "stateAbbreviation": "MG",
-        "status": "Em construção",
-        "residential": "Lúmina Premium Residence",
-        "number": 203,
+        "status": "Lançamento",
+        "residential": "Residencial Província de Aragão",
+        "number": 90,
         "countBathrooms": 1,
         "countRooms": 2,
-        "garages": 2,
-        "size": "43 por 73m",
-        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+        "garages": 1,
+        "size": "11.035,15 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4204/375x215/01KT9_PROVINCIA-DE-ARAGAO_PE_GUARITA-NOTURNA_2022_01_04.jpg",
         "images": [
-            "https://imoveis.mrv.com.br/upload/imagens/4292/20230217042115_OREGON_FACHADADIA_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/jYByX_OREGON_PISCINA_NOITE_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/pFWDT_OREGON-VARANDA_RFA2.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/62Q9u_OREGON_CHURRAQUEIRA1_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/OREGON_PISTA_RF.webp",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/a9x70_OREGON_PET_RFA3.jpg"
+            "https://imoveis.mrv.com.br/upload/imagens/4204/01KT9_PROVINCIA-DE-ARAGAO_PE_GUARITA-NOTURNA_2022_01_04.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220117023028_PROVINCIA-DE-ARAGAO_PE_GUARITA-DIURNA_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220117022927_PROVINCIA-DE-ARAGAO_PE_FESTAS_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/hDCCX_PROVINCIA-DE-ARAGAO_PE_GOURMET_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220224105459_PROVINCIA-DE-ARAGAO_PE_PETPLACE_2022_02_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/ggUCD_PROVINCIA-DE-ARAGAO_PE_PLAYGROUND_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/KfiMY_PROVINCIA-DE-ARAGAO_PE_POMAR_2022_01_04.webp"
         ],
         "differentials": [
             {
                 "id": 1,
+                "title": "Dispositivos Economizadores de Água",
+                "description": "Com o objetivo de ajudar os condomínios a economizar água, serão instalados arejadores e redutores de vazão nas torneiras das áreas comuns dos empreendimentos. Nas louças sanitárias será acoplada a caixa economizadora de água, com opção de fluxo de 3/6 litros."
+            },
+            {
+                "id": 2,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação."
+            },
+            {
+                "id": 3,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 4,
                 "title": "Bicicletário",
                 "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
             },
             {
-                "id": 2,
-                "title": "Lazer equipado",
-                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
-            },
-            {
-                "id": 3,
+                "id": 5,
                 "title": "Dispositivos Economizadores de Energia",
                 "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            },
+            {
+                "id": 6,
+                "title": "Forro de gesso no banheiro",
+                "description": "A versatilidade do gesso propicia um acabamento interior elegante, maior resistência e um ótimo isolamento termo-acústico para seu banheiro."
+            },
+            {
+                "id": 7,
+                "title": "Cerâmica Cozinha e Banheiro",
+                "description": "O piso de cerâmica é o mais funcional do mercado, é bonito, não mancha, e ainda muito fácil de limpar. Deixando sua vida mais prática."
+            },
+            {
+                "id": 8,
+                "title": "Bancadas em mármore sintético",
+                "description": "Com design mais moderno e possibilidade de instalação de armário inferior. O banheiro e a cozinha ganham melhor aproveitamento da bancada."
+            },
+            {
+                "id": 9,
+                "title": "Tanque em mármore sintético",
+                "description": "Maior resistência à corrosão e a impactos, melhor acabamento com design mais moderno, além de maior durabilidade suportando bem a umidade."
             }
         ]
     },
     {
         "id": 2,
-        "banner": "https://imoveis.mrv.com.br/upload/imagens/4203/1920x767/RESIDENCIAL-CASCAIS_PE_FACHADA_2022_11_23.webp?v1",
-        "city": "Juiz de Fora",
-        "description": "um otiomo lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
-        "road": "Parque São João",
-        "neighborhood": "Centro",
-        "complement": "2 quartos e 1 hidromassagem",
+        "city": "Contagem",
+        "description": "O Condomínio conta com apartamentos de 2 quartos, varanda e lazer com piscinas. Além disso, também possui uma área Fitness Descoberta e Playground para que as crianças possam se divertir e criar novas conexões.",
+        "road": "Rua Mena da Gangorra",
+        "neighborhood": "Pampulha",
         "stateAbbreviation": "MG",
-        "status": "Em construção",
-        "residential": "Lúmina Premium Residence",
+        "status": "Lançamento",
+        "residential": "Residencial Cascais",
+        "number": 300,
         "countBathrooms": 1,
         "countRooms": 2,
-        "number": 130,
-        "garages": 2,
-        "size": "43 por 73m",
-        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+        "garages": 1,
+        "size": "22.444,39 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4203/375x215/RESIDENCIAL-CASCAIS_PE_FACHADA_2022_11_23.webp",
         "images": [
-            "https://imoveis.mrv.com.br/upload/imagens/4292/20230217042115_OREGON_FACHADADIA_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/jYByX_OREGON_PISCINA_NOITE_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/pFWDT_OREGON-VARANDA_RFA2.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/62Q9u_OREGON_CHURRAQUEIRA1_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/OREGON_PISTA_RF.webp",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/a9x70_OREGON_PET_RFA3.jpg"
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_FACHADA_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_GUARITA-DIURNA_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_PISCINA_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_FESTAS_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_QUADRA_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_GOURMET_2022_11_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4203/RESIDENCIAL-CASCAIS_PE_GUARITA-NOTURNA_2022_11_23.webp"
         ],
         "differentials": [
             {
                 "id": 1,
-                "title": "Bicicletário",
-                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+                "title": "Piso Laminado na Sala",
+                "description": "Os novos apartamentos MRV estão mais bonitos e práticos. A sala agora conta* com piso laminado. (exceto primeiro pavimento de alguns condomínio). Melhoria na estética do apartamento, produto com qualidade certificada pelo fornecedor. Resistente a impactos, a manchas e a abrasão."
             },
             {
                 "id": 2,
-                "title": "Lazer equipado",
-                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+                "title": "Piso Laminado no Quarto",
+                "description": "Os novos apartamentos MRV estão mais bonitos e práticos. Os quartos agora contam* com pisos laminados. (exceto primeiro pavimento de alguns condomínio). Melhoria na estética do apartamento, produto com qualidade certificada pelo fornecedor. Resistente a impactos, a manchas e a abrasão."
             },
             {
                 "id": 3,
-                "title": "Dispositivos Economizadores de Energia",
-                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 4,
+                "title": "Sistema de segurança BIO",
+                "description": "Com foco no bem-estar da sua família, a MRV desenvolveu um sistema de segurança completo, com circuito fechado de TV, cerca elétrica com alarme, luminária com sensor de presença, guarita com células de segurança (opcional) – onde pedestres e veículos aguardam liberação do porteiro para acesso."
+            },
+            {
+                "id": 5,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 6,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 7,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            },
+            {
+                "id": 8,
+                "title": "Elevador",
+                "description": "Elevador nas torres ou blocos dos condomínios*. Para deixar a sua vida cada vez mais prática e confortável. * Item opcional. Verificar projeto arquitetônico."
+            },
+            {
+                "id": 9,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
             }
         ]
     },
     {
         "id": 3,
-        "banner": "https://imoveis.mrv.com.br/upload/imagens/4203/1920x767/RESIDENCIAL-CASCAIS_PE_FACHADA_2022_11_23.webp?v1",
-        "city": "Betim",
-        "description": "um otiomo lugar para morar com a familia e sem nenhum inciomodo posi fica em uma area m,uito segura na cidade e em um bairro nobre com vigilancia de 24H por dia",
-        "road": "Parque São João",
-        "neighborhood": "Centro",
-        "complement": "2 quartos e 1 hidromassagem",
+        "city": "Belo Horizonte",
+        "description": "Apartamentos de 2 quartos no São Gabriel, em condomínio fechado com dois elevadores por torre, todos com vaga de garagem. Segurança, tranquilidade, conforto e área de lazer. Aqui a diversão da sua família está garantida.",
+        "road": "Rua Pedra Lavrada",
+        "neighborhood": "São Gabriel",
         "stateAbbreviation": "MG",
-        "status": "Em construção",
-        "residential": "Lúmina Premium Residence",
+        "status": "Em Construção",
+        "residential": "Plaza Cartagena",
+        "number": 300,
         "countBathrooms": 1,
         "countRooms": 2,
-        "number": 159,
-        "garages": 2,
-        "size": "43 por 73m",
-        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4389/375x215/20221007052819_MRVTRILHADASERRAGUARITATARDE_hr02.jpg",
+        "garages": 1,
+        "size": "10.401,77 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4180/375x215/20210305100505_PLAZA-CARTAGENA_PE_INSERCAO_2021_03_04.jpg",
         "images": [
-            "https://imoveis.mrv.com.br/upload/imagens/4292/20230217042115_OREGON_FACHADADIA_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/jYByX_OREGON_PISCINA_NOITE_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/pFWDT_OREGON-VARANDA_RFA2.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/62Q9u_OREGON_CHURRAQUEIRA1_RFA3.jpg",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/OREGON_PISTA_RF.webp",
-            "https://imoveis.mrv.com.br/upload/imagens/4292/a9x70_OREGON_PET_RFA3.jpg"
+            "https://imoveis.mrv.com.br/upload/imagens/4180/20210407015907_PLAZA-CARTAGENA_PE_GUARITA-NOTURNA_2021_02_02.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/PLAZA-CARTAGENA_PE_GUARITA-DIURNA_2021_02_02.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/20210525030859_PLAZA-CARTAGENA_SALA_205_2021_05_17.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/20210525030725_PLAZA-CARTAGENA_QUARTO_205_2021_03_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/Qp30q_PLAZA-CARTAGENA_COZINHA_205_2021_05_17.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/PLAZA-CARTAGENA_PE_PISCINA_2021_02_02.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4180/PLAZA-CARTAGENA_PE_GOURMET_2021_02_02.webp"
         ],
         "differentials": [
             {
                 "id": 1,
-                "title": "Bicicletário",
-                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+                "title": "Sistema de segurança ECO",
+                "description": "Com foco no bem-estar da sua família, a MRV desenvolveu um sistema de segurança completo, com circuito fechado de TV, cerca elétrica com alarme, luminária com sensor de presença e guarita de segurança."
             },
             {
                 "id": 2,
-                "title": "Lazer equipado",
-                "description": "área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+                "title": "Energia Solar Áreas Comuns",
+                "description": "Os empreendimentos com este recurso produzem energia elétrica renovável e limpa para atendimento parcial à demanda das áreas comuns do condomínio, proporcionando assim, desconto na conta de luz do condomínio."
             },
             {
                 "id": 3,
-                "title": "Dispositivos Economizadores de Energia",
-                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+                "title": "Piso Laminado no Quarto",
+                "description": "Os novos apartamentos MRV estão mais bonitos e práticos. Os quartos agora contam* com pisos laminados. (exceto primeiro pavimento de alguns condomínio). Melhoria na estética do apartamento, produto com qualidade certificada pelo fornecedor. Resistente a impactos, a manchas e a abrasão."
+            },
+            {
+                "id": 4,
+                "title": "Previsão para medição de água individualizada",
+                "description": "O seu consumo controlado por quem deve: você. Preparação para medição individualizada de água por apartamento."
+            },
+            {
+                "id": 5,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 6,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação. Outro diferencial: as portas já virão com o olho mágico, oferecendo mais segurança e comodidade para o morador."
+            },
+            {
+                "id": 7,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 8,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 9,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "city": "Belo Horizonte",
+        "description": "Condomínio fechado com apartamentos de 2 quartos no Juliana, com elevador, todos com vaga de garagem. Segurança, tranquilidade, conforto e área de lazer para sua família se divertir em qualquer momento.",
+        "road": "Rua Alva",
+        "neighborhood": "Juliana",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Plaza Norte",
+        "number": 300,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "11.857,00 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4011/375x215/20200122073313_PLAZA-NORTE_PE_GUARITA_NOTURNA_2020_01_21.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4011/Qb0yY_PLAZA-NORTE_PE_GUARITA-DIURNA_2020_01_21.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4011/3edJ6_PLAZA-NORTE_PE_PISCINA_2020_01_21.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4011/eKp41_PLAZA-NORTE_PE_GOURMET_2020_01_21.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4011/iF76u_PLAZA-NORTE_PE_PLAY_2020_01_21.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4011/20200122073405_PLAZA-NORTE_PE_BICICLETARIO_2020_01_21.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4011/20200427044021_PLAZA-NORTE_PE_FOTOINSERCAO_2020_04_23.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Energia Solar Áreas Comuns",
+                "description": "Os empreendimentos com este recurso produzem energia elétrica renovável e limpa para atendimento parcial à demanda das áreas comuns do condomínio, proporcionando assim, desconto na conta de luz do condomínio."
+            },
+            {
+                "id": 2,
+                "title": "Elevador",
+                "description": "Elevador nas torres ou blocos dos condomínios*. Para deixar a sua vida cada vez mais prática e confortável. * Item opcional. Verificar projeto arquitetônico."
+            },
+            {
+                "id": 3,
+                "title": "Medição de água individualizada",
+                "description": "O seu consumo controlado por quem deve: você. Medição individualizada de água por apartamento."
+            },
+            {
+                "id": 4,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 5,
+                "title": "Sistema de segurança ECO",
+                "description": "Com foco no bem-estar da sua família, a MRV desenvolveu um sistema de segurança completo, com circuito fechado de TV, cerca elétrica com alarme, luminária com sensor de presença e guarita de segurança."
+            },
+            {
+                "id": 6,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 7,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação. Outro diferencial: as portas já virão com o olho mágico, oferecendo mais segurança e comodidade para o morador."
+            },
+            {
+                "id": 8,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 9,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
             }
         ]
     }

@@ -12,11 +12,11 @@ export const AllCites: City[] = [
     },
     {
         id: "2",
-        name: "Uberlândia",
-        smallName: "uberlândia",
-        abbreviation: "UL",
+        name: "Ribeirão das Neves",
+        smallName: "ribeirão das neves",
+        abbreviation: "RN",
         state: "MG",
-        slug: "uberlandia",
+        slug: "ribeirão-das-neves",
     },
     {
         id: "3",

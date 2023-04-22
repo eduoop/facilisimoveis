@@ -73,7 +73,7 @@ const Page = ({ params }: { params: any }) => {
                         {imgs.map((imgUrl, index) => (
                             <Dialog.Root key={index} >
                                 <Dialog.Trigger asChild>
-                                    <div className='max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-[670px] desktop:h-[400px] cursor-pointer select-none shadow-md '>
+                                    <div className='max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-full desktop:h-[400px] cursor-pointer select-none shadow-md'>
                                         <img className='object-cover' style={{ pointerEvents: "none" }} src={imgUrl} alt={'apartament images'} />
                                     </div>
                                 </Dialog.Trigger>
@@ -94,12 +94,12 @@ const Page = ({ params }: { params: any }) => {
             }
 
             {currentView === "maps" &&
-                <div className='w-full flex items-center justify-center h-60'>
-                    Em construção
+                <div className='w-full flex items-center justify-center max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-full desktop:h-[400px]'>
+                    Em breve
                 </div>
             }
 
-            <div className='w-full flex justify-center items-center mt-3'>
+            <div className='w-full flex justify-center items-center mt-5'>
                 <div className='flex justify-between items-center w-[90%] max-w-[1250px] sm:w-full sm:justify-center'>
                     <div className='flex items-center gap-7'>
                         <button onClick={() => changeActive("photos")} className={currentView === "photos" ? active : notActive}><HiOutlinePhotograph fontSize={20} /> Ver Fotos ({property && property.images.length})</button>

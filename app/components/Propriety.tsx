@@ -35,11 +35,11 @@ const Propriety = ({ propriety }: Props) => {
           </div>
           <div className="flex items-center gap-1">
             <AiOutlineCar />
-            <span className="text-[14px]">{propriety.countRooms}</span>
+            <span className="text-[14px]">{propriety.garages}</span>
           </div>
           <div className="flex items-center gap-1">
             <MdOutlineShower />
-            <span className="text-[14px]">{propriety.countRooms}</span>
+            <span className="text-[14px]">{propriety.countBathrooms}</span>
           </div>
         </div>
       </div>

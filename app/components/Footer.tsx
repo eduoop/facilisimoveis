@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { FaFacebookF } from 'react-icons/fa'
+import { IoLogoWhatsapp } from 'react-icons/io5'
 import { TfiLinkedin } from 'react-icons/tfi'
 
 const Footer = () => {
@@ -14,14 +15,14 @@ const Footer = () => {
         {/* Redes sociais */}
         <div className='w-full flex justify-center items-center mt-5 gap-5'>
           {/* Item */}
-          <a className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80'>
+          <a href='https://www.instagram.com/facilis.imoveis/' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
             <AiOutlineInstagram fontSize={25} />
           </a>
-          <a className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80'>
+          <a href='https://www.facebook.com/facilis.imoveis/' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
             <FaFacebookF fontSize={20} />
           </a>
-          <a className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80'>
-            <TfiLinkedin fontSize={20} />
+          <a href='https://wa.me/3198825154' target='_blank' className='p-2 rounded-full border-solid border-2 border-primary/20 cursor-pointer text-primary transition duration-150 hover:border-primary hover:bg-zinc-800/80' rel="noreferrer">
+            <IoLogoWhatsapp fontSize={23} />
           </a>
         </div>
 
