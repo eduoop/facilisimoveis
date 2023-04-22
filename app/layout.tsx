@@ -5,12 +5,18 @@ import FilterCity from './components/FilterCity';
 import { PropertiesContextProvider } from './contexts/Properties/PropertiesContext';
 import toast, { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer';
+import { useEffect } from 'react';
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+
+  useEffect(() => {
+    console.log("Render Layout")
+  }, [])
+
   return (
     <html lang="en">
       {/*
