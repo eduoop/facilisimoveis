@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       {/* Copy */}
       <div className='flex justify-center items-center bg-zinc-800 w-full mt-4 py-3'>
-        <h2 className='text-white/80'>Facilis imóveis &copy; {currentYear}</h2>
+        <h2 className='text-white/80'>Facilis imóveis &copy; 2023</h2>
       </div>
     </div>
   )

@@ -1,9 +1,9 @@
-// "use client"
+"use client"
 import './globals.css';
 import Nav from './components/Nav';
 import FilterCity from './components/FilterCity';
 import { PropertiesContextProvider } from './contexts/Properties/PropertiesContext';
-// import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
 import Footer from './components/Footer';
 
 export default function RootLayout({
@@ -22,10 +22,10 @@ export default function RootLayout({
         <PropertiesContextProvider>
           <Nav />
           <FilterCity />
-          {/* <Toaster /> */}
+          <Toaster />
           {children}
         </PropertiesContextProvider>
-        {/* <Footer/> */}
+        <Footer/>
       </body>
     </html>
   )
