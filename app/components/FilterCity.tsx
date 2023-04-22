@@ -7,6 +7,7 @@ import { AllCites } from '../data/cities'
 import { AllStates } from '../data/states'
 import { useGlobalPropertiesContext } from '../contexts/Properties/PropertiesContext'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation';
 
 const FilterCity = () => {
 
@@ -14,6 +15,7 @@ const FilterCity = () => {
 
     const [currentCiy, setCurrentCity] = useState<City>(AllCites[0])
     const [currentState, setCurrentState] = useState<State>(AllStates[0])
+    const router = useRouter();
 
     // Find the city in cities array
 
@@ -65,11 +67,11 @@ const FilterCity = () => {
                         ))}
                     </select> */}
                 </div>
-                <Link href="/" className='w-fit sm:w-full'>
-                    <button onClick={() => {
-                        searchProperties()
-                    }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
-                </Link>
+                <button onClick={() => {
+                    searchProperties()
+                    router.push("/")
+                    // eslint-disable-next-line react-hooks/rules-of-hooks
+                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
             </div>
         </div>
     )
