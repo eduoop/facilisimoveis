@@ -42,10 +42,6 @@ const FilterCity = () => {
         getProperties(currentCiy.name)
     }
 
-    useEffect(() => {
-        console.log("Render")
-    }, [])
-
     return (
         <div className='w-screen bg-[#3A3A3A] h-24 flex items-center justify-center sm:h-auto'>
             <div className='flex gap-3 items-center sm:flex-col sm:w-11/12 sm:p-5'>
@@ -73,13 +69,22 @@ const FilterCity = () => {
                         ))}
                     </select> */}
                 </div>
-                <button onClick={() => {
-                    searchProperties()
-                    // eslint-disable-next-line react-hooks/rules-of-hooks
-                    if(pathname !== "/") {
-                        router.push("/")
-                    }
-                }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
+                {pathname !== "/" ?
+                    <Link href="/" className='w-full'>
+                        <button onClick={() => {
+                            searchProperties()
+                            // eslint-disable-next-line react-hooks/rules-of-hooks
+                            if (pathname !== "/") {
+                                router.push("/")
+                            }
+                        }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
+                    </Link>
+                    :
+                    <button onClick={() => {
+                        searchProperties()
+                    }} className='p-3 px-4 outline-none rounded-md bg-secondary text-white font-bold shadow-md sm:w-full'>Buscar</button>
+                }
+
             </div>
         </div>
     )
