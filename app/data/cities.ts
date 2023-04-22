@@ -42,4 +42,20 @@ export const AllCites: City[] = [
         state: "MG",
         slug: "betim"
     },
+    {
+        id: "6",
+        name: "Santa Luzia",
+        smallName: "santa luzia",
+        abbreviation: "SL",
+        state: "MG",
+        slug: "santa-luzia"
+    },
+    {
+        id: "7",
+        name: "Sete Lagoas",
+        smallName: "sete lagoas",
+        abbreviation: "SL",
+        state: "MG",
+        slug: "sete-lagoas"
+    },
 ]

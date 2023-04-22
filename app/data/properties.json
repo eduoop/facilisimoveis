@@ -285,5 +285,363 @@
                 "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
             }
         ]
+    },
+    {
+        "id": 5,
+        "city": "Belo Horizonte",
+        "description": "Apartamentos com 2 quartos em condomínio residencial fechado na Região do Milionários, com 2 elevadores por torre, todos com varanda, opção de suíte e garagem vinculada. A tranquilidade, segurança, conforto e área de lazer para a sua família se divertir sem sair de casa.",
+        "road": "Rua Amilcar Cabral",
+        "neighborhood": "Milionários",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Residencial Milionários",
+        "number": 601,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "8.121,60 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4321/375x215/20220601045846_RESIDENCIAL-MILIONARIOS_PE_GUARITA-NOTURNA-OP02_2022_03_07.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4321/20220601045846_RESIDENCIAL-MILIONARIOS_PE_GUARITA-NOTURNA-OP02_2022_03_07.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/20220601045901_RESIDENCIAL-MILIONARIOS_PE_GUARITA-NOTURNA_2022_03_07.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/20220601045927_RESIDENCIAL-MILIONARIOS_PE_GARAGEM_2022_02_08.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/w7jhh_RESIDENCIAL-MILIONARIOS_PE_GOURMET_2022_02_08.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/20220211090226_RESIDENCIAL-MILIONARIOS_PE_GOURMET-MULTIMIDIA_2022_02_08.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/1CJo5_RESIDENCIAL-MILIONARIOS_PE_FESTAS_2022_02_08.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4321/lHW5X_RESIDENCIAL-MILIONARIOS_PE_PISCINA-DIURNA_2022_02_08.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Porcelanato",
+                "description": "O piso de porcelanato é elegante e sofisticado, fácil de limpar e resistente a impactos. Deixando seu dia dia mais funcional e sua casa mais bonita."
+            },
+            {
+                "id": 2,
+                "title": "Energia Solar Áreas Comuns",
+                "description": "Os empreendimentos com este recurso produzem energia elétrica renovável e limpa para atendimento parcial à demanda das áreas comuns do condomínio, proporcionando assim, desconto na conta de luz do condomínio."
+            },
+            {
+                "id": 3,
+                "title": "Elevador",
+                "description": "Elevador nas torres ou blocos dos condomínios*. Para deixar a sua vida cada vez mais prática e confortável. * Item opcional. Verificar projeto arquitetônico."
+            },
+            {
+                "id": 4,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 5,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            },
+            {
+                "id": 6,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 7,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 8,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 9,
+                "title": "Dispositivos Economizadores de Água",
+                "description": "Com o objetivo de ajudar os condomínios a economizar água, serão instalados arejadores e redutores de vazão nas torneiras das áreas comuns dos empreendimentos. Nas louças sanitárias será acoplada a caixa economizadora de água, com opção de fluxo de 3/6 litros."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "city": "Belo Horizonte",
+        "description": "Apartamentos de 2 quartos no Havaí, em condomínio fechado com elevador, opção de suíte, opção de varanda e opção de vaga de garagem. Conforto, tranquilidade, segurança e área de lazer completa com piscina para sua família se divertir sem sair de casa.",
+        "road": "Rua zilda gama",
+        "neighborhood": "Havai",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Residencial Oregon",
+        "number": 37,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "9.282,75 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4292/375x215/20230217042115_OREGON_FACHADADIA_RFA3.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4292/20230217042115_OREGON_FACHADADIA_RFA3.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/jYByX_OREGON_PISCINA_NOITE_RFA3.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/pFWDT_OREGON-VARANDA_RFA2.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/OREGON-LIVING_RFA1.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/62Q9u_OREGON_CHURRAQUEIRA1_RFA3.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/OREGON_PISTA_RF.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4292/a9x70_OREGON_PET_RFA3.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 2,
+                "title": "Porcelanato",
+                "description": "O piso de porcelanato é elegante e sofisticado, fácil de limpar e resistente a impactos. Deixando seu dia dia mais funcional e sua casa mais bonita."
+            },
+            {
+                "id": 3,
+                "title": "Elevador",
+                "description": "Elevador nas torres ou blocos dos condomínios*. Para deixar a sua vida cada vez mais prática e confortável.* Item opcional. Verificar projeto arquitetônico."
+            },
+            {
+                "id": 4,
+                "title": "Revestimento total das áreas molhadas",
+                "description": "Revestimento cerâmico total das paredes nas áreas molhadas, do chão até o teto, alia beleza e funcionalidade, além de ser mais resistente ao tempo e à umidade."
+            },
+            {
+                "id": 5,
+                "title": "Previsão para medição de água individualizada",
+                "description": "O seu consumo controlado por quem deve: você. Preparação para medição individualizada de água por apartamento."
+            },
+            {
+                "id": 6,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 7,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            },
+            {
+                "id": 8,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 9,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação. Outro diferencial: as portas já virão com o olho mágico, oferecendo mais segurança e comodidade para o morador."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "city": "Santa Luzia",
+        "description": "Apartamentos de 2 quartos no Chácaras Del Rey, em condomínio fechado, todos com vaga de garagem. Tranquilidade, segurança, conforto e área de lazer completa com piscina para sua família se divertir sem sair de casa.",
+        "road": "Rua Princesa Isabel",
+        "neighborhood": "Chácaras Del Rey",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Parque Serra dos Pinhais",
+        "number": 190,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "22.964,00 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4076/375x215/iCGIE_PARQUE-SERRA-DOS-PINHAIS_PPC-PISCINA_17-07-2020.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121421_PARQUE-SERRA-DOS-PINHAIS_PPCFACHADA-COM-PORTARIA-NOTURNA_17-07-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121433_PARQUE-SERRA-DOS-PINHAIS_PPCFACHADA-COM-PORTARIA-DIURNA_17-07-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121539_PARQUE-SERRA-DOS-PINHAIS_PPC-FESTAS_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/6sKIZ_PARQUE-SERRA-DOS-PINHAIS_PPC-GOURMET_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/SDLwK_PARQUE-SERRA-DOS-PINHAIS_PPC-PLAYGROUND_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121604_PARQUE-SERRA-DOS-PINHAIS_PPC-FOTO-INSER%C3%87%C3%83O_17-07-2020.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Previsão para medição de água individualizada",
+                "description": "O seu consumo controlado por quem deve: você. Preparação para medição individualizada de água por apartamento."
+            },
+            {
+                "id": 2,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            },
+            {
+                "id": 3,
+                "title": "Dispositivos Economizadores de Água",
+                "description": "Com o objetivo de ajudar os condomínios a economizar água, serão instalados arejadores e redutores de vazão nas torneiras das áreas comuns dos empreendimentos. Nas louças sanitárias será acoplada a caixa economizadora de água, com opção de fluxo de 3/6 litros."
+            },
+            {
+                "id": 4,
+                "title": "Dispositivos Economizadores de Energia",
+                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            },
+            {
+                "id": 5,
+                "title": "Janelas Especiais",
+                "description": "Substituição de esquadria de alumínio fosca para esquadria branca, oferecendo um produto mais sustentável, pois não há necessidade de anodização do alumínio, além de melhorar a estética do apartamento."
+            },
+            {
+                "id": 6,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 7,
+                "title": "Linha especial de louças e metais",
+                "description": "Design moderno e maior durabilidade."
+            },
+            {
+                "id": 8,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 9,
+                "title": "Sistema de segurança ECO",
+                "description": "Com foco no bem-estar da sua família, a MRV desenvolveu um sistema de segurança completo, com circuito fechado de TV, cerca elétrica com alarme, luminária com sensor de presença e guarita de segurança."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "city": "Sete Lagoas",
+        "description": "Condomínio fechado com apartamentos de 2 quartos na Região do Vapabuçu, todos com vaga de garagem. Tudo o que você precisa em um só lugar: conforto, tranquilidade, segurança e área de lazer para a sua família.",
+        "road": "Av. Prefeito Alberto Moura",
+        "neighborhood": "Região do Vapabuçu",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Moradas de Minas",
+        "number": 1251,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "11.917,59 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/3999/375x215/20191211075936_MORADASDEMINAS_CHURRASQUEIRA_V02.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121421_PARQUE-SERRA-DOS-PINHAIS_PPCFACHADA-COM-PORTARIA-NOTURNA_17-07-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121433_PARQUE-SERRA-DOS-PINHAIS_PPCFACHADA-COM-PORTARIA-DIURNA_17-07-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121539_PARQUE-SERRA-DOS-PINHAIS_PPC-FESTAS_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/6sKIZ_PARQUE-SERRA-DOS-PINHAIS_PPC-GOURMET_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/SDLwK_PARQUE-SERRA-DOS-PINHAIS_PPC-PLAYGROUND_11-06-2020.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4076/20200721121604_PARQUE-SERRA-DOS-PINHAIS_PPC-FOTO-INSER%C3%87%C3%83O_17-07-2020.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Energia Solar Áreas Comuns",
+                "description": "Os empreendimentos com este recurso produzem energia elétrica renovável e limpa para atendimento parcial à demanda das áreas comuns do condomínio, proporcionando assim, desconto na conta de luz do condomínio."
+            },
+            {
+                "id": 2,
+                "title": "Medição de água individualizadaMedição de água individualizada",
+                "description": "O seu consumo controlado por quem deve: você. Medição individualizada de água por apartamento."
+            },
+            {
+                "id": 3,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 4,
+                "title": "Lazer equipado",
+                "description": "A área de lazer proporciona aos moradores várias opções de diversão, oferecendo segurança para as crianças e tranquilidade para os pais. Os condomínio também tem espaços que possibilitam mais momentos felizes para você, seus amigos e familiares. Consulte os itens de lazer na ficha técnica do seu produto."
+            },
+            {
+                "id": 5,
+                "title": "Sistema de segurança ECO",
+                "description": "Com foco no bem-estar da sua família, a MRV desenvolveu um sistema de segurança completo, com circuito fechado de TV, cerca elétrica com alarme, luminária com sensor de presença e guarita de segurança."
+            },
+            {
+                "id": 6,
+                "title": "Preparação para Wi-fi nas áreas de lazer",
+                "description": "Os condomínios estarão preparados para receber internet wifi nas áreas de lazer. A MRV entregará a tubulação seca e sondada para futura instalação de internet wi-fi nas áreas de lazer. Assim a conectividade poderá estar presente a todo momento, trazendo comodidade e praticidade para o dia a dia do condomínio."
+            },
+            {
+                "id": 7,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação. Outro diferencial: as portas já virão com o olho mágico, oferecendo mais segurança e comodidade para o morador."
+            },
+            {
+                "id": 8,
+                "title": "Coleta seletiva",
+                "description": "Se você escolheu um MRV, pode ter certeza que ganhou muito com isso. Será preparado um local especial para coleta seletiva dos resíduos do condomínio. 'Os coletores ficarão na edícula do lixo.'"
+            },
+            {
+                "id": 9,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "city": "Ribeirão das Neves",
+        "description": "Apartamentos de 2 quartos na Região Central, em condomínio fechado. Segurança, tranquilidade, conforto e área de lazer. Aqui a sua família pode se divertir em qualquer momento.",
+        "road": "Rua Adir Alves de Lima",
+        "neighborhood": "Região Central",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Residencial Província de Aragão",
+        "number": 90,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "11.035,15 m²",
+        "cardImage": "https://imoveis.mrv.com.br/upload/imagens/4204/375x215/01KT9_PROVINCIA-DE-ARAGAO_PE_GUARITA-NOTURNA_2022_01_04.jpg",
+        "images": [
+            "https://imoveis.mrv.com.br/upload/imagens/4204/01KT9_PROVINCIA-DE-ARAGAO_PE_GUARITA-NOTURNA_2022_01_04.jpg",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220117023028_PROVINCIA-DE-ARAGAO_PE_GUARITA-DIURNA_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220117022927_PROVINCIA-DE-ARAGAO_PE_FESTAS_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/hDCCX_PROVINCIA-DE-ARAGAO_PE_GOURMET_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/20220224105459_PROVINCIA-DE-ARAGAO_PE_PETPLACE_2022_02_23.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/ggUCD_PROVINCIA-DE-ARAGAO_PE_PLAYGROUND_2022_01_04.webp",
+            "https://imoveis.mrv.com.br/upload/imagens/4204/KfiMY_PROVINCIA-DE-ARAGAO_PE_POMAR_2022_01_04.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Dispositivos Economizadores de Água",
+                "description": "Com o objetivo de ajudar os condomínios a economizar água, serão instalados arejadores e redutores de vazão nas torneiras das áreas comuns dos empreendimentos. Nas louças sanitárias será acoplada a caixa economizadora de água, com opção de fluxo de 3/6 litros."
+            },
+            {
+                "id": 2,
+                "title": "Portas Especiais",
+                "description": "A porta será entregue com uma borracha de vedação que reduz impacto e ruído, enquanto os batentes não possuirão marcas de fixação."
+            },
+            {
+                "id": 3,
+                "title": "Pomar",
+                "description": "Pegar a fruta no pé, fresquinha e livre de agrotóxicos. Em nossos pomares, mais do que desfrutar de uma vida saudável com um sabor delicioso, plantamos valores sustentáveis para serem compartilhados com toda a família."
+            },
+            {
+                "id": 4,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 5,
+                "title": "Dispositivos Economizadores de Energia",
+                "description": "Para a redução do consumo de energia nos condominios, serão utilizadas nas áreas comuns lâmpadas de led mais eficientes e sensores de presença nos halls dos blocos/torres. Além de ser sustentável, possibilita um menor custo para os moradores."
+            },
+            {
+                "id": 6,
+                "title": "Forro de gesso no banheiro",
+                "description": "A versatilidade do gesso propicia um acabamento interior elegante, maior resistência e um ótimo isolamento termo-acústico para seu banheiro."
+            },
+            {
+                "id": 7,
+                "title": "Cerâmica Cozinha e Banheiro",
+                "description": "O piso de cerâmica é o mais funcional do mercado, é bonito, não mancha, e ainda muito fácil de limpar. Deixando sua vida mais prática."
+            },
+            {
+                "id": 8,
+                "title": "Bancadas em mármore sintético",
+                "description": "Com design mais moderno e possibilidade de instalação de armário inferior. O banheiro e a cozinha ganham melhor aproveitamento da bancada."
+            },
+            {
+                "id": 9,
+                "title": "Tanque em mármore sintético",
+                "description": "Maior resistência à corrosão e a impactos, melhor acabamento com design mais moderno, além de maior durabilidade suportando bem a umidade."
+            }
+        ]
     }
 ]

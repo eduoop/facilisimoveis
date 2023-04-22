@@ -50,7 +50,7 @@ const Propriety = ({ propriety }: Props) => {
           <small className="font-bold leading-5 text-lg text-[14px]">{propriety.neighborhood}</small>
         </div>
 
-        <div className="w-full flex justify-center pl-2">
+        <div className="w-full flex pl-2">
           <ul className="list-disc flex flex-col gap-2">
             {filteredTreeDifferentials().map((differential) => (
               <li className="text-[#5d615f]" key={differential.id}>

@@ -9,8 +9,8 @@ import Banner from "../public/banner.png"
 import BannerSmall from "../public/banner-small.png"
 
 
-const Home = () => {
-  const { city, properties } = useGlobalPropertiesContext()
+export default function Page () {
+  const { city, properties, getProperties } = useGlobalPropertiesContext()
 
   const responsive = {
     superLargeDesktop: {
@@ -32,7 +32,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    console.log("Render home")
+    getProperties(city.name)
   }, [])
 
   return (
@@ -89,5 +89,3 @@ const Home = () => {
     </div>
   )
 }
-
-export default Home
