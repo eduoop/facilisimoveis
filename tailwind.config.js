@@ -1,3 +1,5 @@
+const { mauve, violet } = require('@radix-ui/colors');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -26,14 +28,30 @@ module.exports = {
       colors: {
         'primary': "#ffaa00",
         'secondary': "#ffb628",
-        'gray-primary': "#3A3A3A"
+        'gray-primary': "#3A3A3A",
+        ...mauve,
+        ...violet,
       },
       backgroundImage: {
         'banner-sm': "url('https://www.imagemhost.com.br/images/2023/04/16/correct-mobile.png')",
         'banner-lg': "url('https://www.imagemhost.com.br/images/2023/04/16/Site-more.png')",
         'banner-md': "url('https://www.imagemhost.com.br/images/2023/04/16/site-laptop.png')",
         'banner-tablet': "url('https://www.imagemhost.com.br/images/2023/04/16/site-tablet.png')",
-      }
+      },
+      keyframes: {
+        slideDown: {
+          from: { height: 0 },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        slideUp: {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: 0 },
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+      },
     },
   },
   plugins: [],

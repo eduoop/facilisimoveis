@@ -12,7 +12,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import * as Dialog from '@radix-ui/react-dialog';
 import { BiBed, BiBuildings, BiRuler } from 'react-icons/bi';
 import { MdOutlineShower } from 'react-icons/md';
-import Link from 'next/link';
+import { AccordionDemo } from '../../components/AccordionDifferentials';
 
 const Page = ({ params }: { params: any }) => {
 
@@ -183,6 +183,18 @@ const Page = ({ params }: { params: any }) => {
 
                                 <div>{property.description}</div>
                             </div>
+
+                            <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />
+
+                            {/* Property differentials */}
+                            <div className='w-full flex- flex-col sm:w-[95%]'>
+                                <h1 className='font-display font-bold text-[20px] text-slate-950 mb-3'>
+                                    Diferenciais:
+                                </h1>
+
+                                {/* List differentials */}
+                                <AccordionDemo differentials={property.differentials} />
+                            </div>
                         </div>
 
                         {/* Right side div */}
@@ -199,7 +211,7 @@ const Page = ({ params }: { params: any }) => {
                     </div>
                 </div>
             }
-        </div>
+        </div >
     )
 }
 

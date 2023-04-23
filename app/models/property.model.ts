@@ -1,4 +1,4 @@
-type Differentials = {
+export type Differentials = {
     id: string,
     title: string,
     description: string
