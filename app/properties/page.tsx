@@ -1,15 +1,15 @@
 "use client"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { useGlobalPropertiesContext } from './contexts/Properties/PropertiesContext';
-import Propriety from './components/Propriety';
+import { useGlobalPropertiesContext } from '../contexts/Properties/PropertiesContext';
+import Propriety from '../components/Propriety';
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import Banner from "../public/banner.png"
-import BannerSmall from "../public/banner-small.png"
+import Banner from "../../public/banner.png"
+import BannerSmall from "../../public/banner-small.png"
 
 
-const Home = () => {
+const Properties = () => {
   const { city, properties, getProperties } = useGlobalPropertiesContext()
 
   const responsive = {
@@ -90,4 +90,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Properties
