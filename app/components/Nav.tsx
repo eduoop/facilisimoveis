@@ -24,7 +24,7 @@ const Nav = () => {
             <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/contact">Contato</Link>
           </li>
           <li>
-            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href="/about">Sobre nós</Link>
+            <Link className='font-semibold text-primary text-lg duration-150 hover:text-secondary' href={`/about`}>Sobre nós</Link>
           </li>
         </ul>
 

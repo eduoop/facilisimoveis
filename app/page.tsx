@@ -9,7 +9,7 @@ import Banner from "../public/banner.png"
 import BannerSmall from "../public/banner-small.png"
 
 
-export default function Page () {
+const Home = () => {
   const { city, properties, getProperties } = useGlobalPropertiesContext()
 
   const responsive = {
@@ -89,3 +89,5 @@ export default function Page () {
     </div>
   )
 }
+
+export default Home
