@@ -13,6 +13,8 @@ import * as Dialog from '@radix-ui/react-dialog';
 import { BiBed, BiBuildings, BiRuler } from 'react-icons/bi';
 import { MdOutlineShower } from 'react-icons/md';
 import { AccordionDemo } from '../../components/AccordionDifferentials';
+import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { MarkerF } from '@react-google-maps/api'
 
 const Page = ({ params }: { params: any }) => {
 
@@ -20,6 +22,19 @@ const Page = ({ params }: { params: any }) => {
     const [property, setProperty] = useState<Property>()
     const [imgs, setImgs] = useState<string[]>([])
     const [currentView, setCurrentView] = useState<"photos" | "maps">("photos")
+    const [map, setMap] = React.useState(null)
+    const [center, setCenter] = React.useState<{
+        lat: number,
+        lng: number
+    }>({
+        lat: -19.852723,
+        lng: -43.955997
+    })
+
+    const { isLoaded } = useJsApiLoader({
+        id: 'google-map-script',
+        googleMapsApiKey: process.env.GOOGLE_KEY ? process.env.GOOGLE_KEY : "none"
+    })
 
     const active = "flex transition duration-200 items-center gap-2 border-solid border-2 border-primary font-bold outline-none w-44 justify-center bg-primary py-2 px-5 shadow-lg rounded-md"
 
@@ -33,6 +48,10 @@ const Page = ({ params }: { params: any }) => {
         const finderProperty = allProperties.filter((propriety) => propriety.id === Number(params.id))[0]
         setProperty(finderProperty)
         setImgs(finderProperty.images)
+        setCenter({
+            lat: Number(finderProperty.lat),
+            lng: Number(finderProperty.lon)
+        })
     }, [])
 
     const responsive = {
@@ -53,6 +72,23 @@ const Page = ({ params }: { params: any }) => {
             items: 1,
         }
     }
+
+    const containerStyle = {
+        width: '100%',
+        height: '100%'
+    };
+
+    const onLoad = React.useCallback(function callback(map: any) {
+        // This is just an example of getting and using the map instance!!! don't just blindly copy!
+        // const bounds = new window.google.maps.LatLngBounds(center);
+        // map.fitBounds(bounds);
+
+        setMap(map)
+    }, [])
+
+    const onUnmount = React.useCallback(function callback(map: any) {
+        setMap(null)
+    }, [])
 
     return (
         <div className='flex flex-col w-screen'>
@@ -94,8 +130,19 @@ const Page = ({ params }: { params: any }) => {
             }
 
             {currentView === "maps" &&
-                <div className='w-full flex items-center justify-center max-w-full max-h-full tablet:w-full tablet:h-full laptop:w-[670px] laptop:h-[377px] desktop:w-full desktop:h-[400px]'>
-                    Em breve
+                <div className='w-full flex items-center justify-center max-h-full tablet:w-full tablet:h-full laptop:h-[377px] desktop:w-full h-[300px]'>
+                    <GoogleMap
+                        id="marker-example"
+                        zoom={17}
+                        onLoad={onLoad}
+                        onUnmount={onUnmount}
+                        mapContainerStyle={containerStyle}
+                        center={center}
+                    >
+                        <MarkerF
+                            position={center}
+                        />
+                    </GoogleMap>
                 </div>
             }
 
@@ -121,7 +168,7 @@ const Page = ({ params }: { params: any }) => {
                         <div className='flex flex-col w-[60%] sm:w-full'>
                             <div className='flex flex-col w-full'>
                                 <h1 className='font-display font-bold text-[20px] text-slate-950'>{property.residential} <br /> {property.neighborhood} - {property.stateAbbreviation}</h1>
-                                <h2>{property.road} - {property.neighborhood} - {property.city}/{property.stateAbbreviation}</h2>
+                                <h2>{property.road}, {property.number} - {property.neighborhood} - {property.city}/{property.stateAbbreviation}</h2>
                             </div>
 
                             <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />

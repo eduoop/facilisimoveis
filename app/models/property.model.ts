@@ -8,6 +8,8 @@ export type Property = {
     id: number,
     status: string,
     neighborhood: string,
+    lat: number,
+    lon: number,
     residential: string,
     number?: number,
     city: string,

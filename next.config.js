@@ -5,6 +5,9 @@ const nextConfig = {
   },
   compiler: {
     styledComponents: true,
+  },
+  env: {
+    GOOGLE_KEY: process.env.GOOGLE_KEY,
   }
 }
 
