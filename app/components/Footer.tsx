@@ -28,7 +28,7 @@ const Footer = () => {
 
         {/* Navs */}
         <div className='flex gap-5 items-center mt-5'>
-          <Link href="/" className='text-primary font-semibold transition duration-200 hover:text-primary/70'>Home</Link>
+          <Link href="/properties" className='text-primary font-semibold transition duration-200 hover:text-primary/70'>Home</Link>
           <Link href="/contact" className='text-primary font-semibold transition duration-200 hover:text-primary/70'>Contato</Link>
           <Link href="/about" className='text-primary font-semibold transition duration-200 hover:text-primary/70'>Sobre nós</Link>
         </div>
