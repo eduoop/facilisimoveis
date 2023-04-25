@@ -33,9 +33,10 @@ const Footer = () => {
           <Link href="/about" className='text-primary font-semibold transition duration-200 hover:text-primary/70'>Sobre nós</Link>
         </div>
       </div>
-      {/* Copy */}
-      <div className='flex justify-center items-center bg-zinc-800 w-full mt-4 py-3'>
+      {/* Copy && maker*/}
+      <div className='flex justify-center items-center bg-zinc-800 w-full mt-4 py-3 gap-10'>
         <h2 className='text-white/80'>Facilis imóveis &copy; {currentYear}</h2>
+        <h2 className='text-white/80'>Site by <a href="http://edudeveloper.com.br/" target='_blank' className='underline transition duration-150 hover:text-white/40' rel="noreferrer">Eduardo</a></h2>
       </div>
     </div>
   )

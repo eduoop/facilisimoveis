@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -30,7 +31,7 @@ const Properties = () => {
       items: 1
     }
   }
-  
+
   useEffect(() => {
     getProperties(city.name)
   }, [])
@@ -40,17 +41,14 @@ const Properties = () => {
       <div className='sm:hidden'>
         <Carousel
           responsive={responsive}
-          arrows={true} 
+          arrows={false}
           infinite={true}
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none'>
             <Image alt='Banner' fill className='object-cover' style={{ pointerEvents: "none" }} src={Banner} />
           </div>
           <div className='w-screen cursor-pointer select-none'>
-            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/mg_contagem_residencialcascais_20230131095222.webp" />
-          </div>
-          <div className='w-screen cursor-pointer select-none'>
-            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/MG_BeloHorizonte_Milionarios_1920x420.webp" />
+            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://facilisimoveis.com.br/_ipx/w_1920,q_75/%2F_next%2Fstatic%2Fmedia%2Fbanner.79b24f03.png?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.79b24f03.png&w=1920&q=75" />
           </div>
         </Carousel>
       </div>
@@ -58,17 +56,14 @@ const Properties = () => {
       <div className='hidden sm:block'>
         <Carousel
           responsive={responsive}
-          arrows={true}
+          arrows={false}
           infinite={true}
           pauseOnHover={true}>
           <div className='w-screen cursor-pointer select-none h-[260px]'>
             <Image alt='Banner' fill className='object-cover' style={{ pointerEvents: "none" }} src={BannerSmall} />
           </div>
           <div className='w-screen cursor-pointer select-none'>
-            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/mg_contagem_residencialcascais_20230131095222.webp" />
-          </div>
-          <div className='w-screen cursor-pointer select-none'>
-            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://imoveis.mrv.com.br/upload/vitrines/JPG/1920x728/MG_BeloHorizonte_Milionarios_1920x420.webp" />
+            <img className='object-cover' style={{ pointerEvents: "none" }} src="https://facilisimoveis.com.br/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fbanner-small.e9f0b42d.png?url=%2F_next%2Fstatic%2Fmedia%2Fbanner-small.e9f0b42d.png&w=640&q=75" />
           </div>
         </Carousel>
       </div>
