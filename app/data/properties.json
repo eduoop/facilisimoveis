@@ -661,5 +661,1033 @@
                 "description": "Maior resistência à corrosão e a impactos, melhor acabamento com design mais moderno, além de maior durabilidade suportando bem a umidade."
             }
         ]
+    },
+    {
+        "id": 10,
+        "city": "Belo Horizonte",
+        "description": "O Ville Estrela é o apê perfeito para viver com muita praticidade e conforto na Pampulha! Com apenas duas torres, elevadores, portaria virtual e unidades com vaga de garagem disponíveis*, além do carro compartilhado e da Lavanderia compartilhada que você só paga quando utiliza.",
+        "road": "Rua Vargem da Serra",
+        "neighborhood": "Bairro Engenho Nogueira",
+        "lat": "-19.889686",
+        "lon": "-43.979782",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Ville Estrela",
+        "number": 267,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 48,73 m²",
+        "cardImage": "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-fachada-scaled.jpg",
+        "images": [
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-fachada-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-fotomontagem_bxbx-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-gourmet-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/1.jpeg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-playground-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/2.jpeg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-fotomontagem_bxbx-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-playground-scaled.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/12/precon-ville-estrela-gourmet-scaled.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Acabamento",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Conveniência",
+                "description": "gás canalizado, lavanderia compartilhada, carro compartilhado."
+            },
+            {
+                "id": 3,
+                "title": "Áreas de lazer",
+                "description": "Salão de festas, Espaço gourmet coberto, playground e sala de jogos."
+            },
+            {
+                "id": 4,
+                "title": "Elevadores em todas as torres",
+                "description": "instalação de sistemas de elevadores em todas as torres para facilitar sua vida."
+            },
+            {
+                "id": 5,
+                "title": "Portaria virtual",
+                "description": "Serviço de segurança eletrônica que substitui a presença física de um porteiro em um prédio ou condomínio por um sistema automatizado de controle de acesso. "
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "city": "Belo Horizonte",
+        "description": "O Ville Hong Kong é o apê perfeito para você viver com mais segurança e praticidade! O condomínio é equipado com um elevador por torre, vaga de garagem exclusiva e demarcada por apê, portaria com guarita para você e sua família ficarem ainda mais seguros. E ainda, para facilitar sua vida, nos quartos, área de circulação e a sala o piso é laminado em madeira, o que facilita muito para fazer a limpeza do seu apê, e o gás é canalizado, o que transmite mais segurança e economia para você.",
+        "road": "Rua Caetano Pirri",
+        "neighborhood": "Milionários",
+        "lat": "-19.978379",
+        "lon": "-43.996115",
+        "stateAbbreviation": "MG",
+        "status": "Obras iniciadas",
+        "residential": "Ville Hong Kong",
+        "number": 1540,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-hong-kong-guarita.jpg",
+        "images": [
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-hong-kong-guarita.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-hong-kong-himalaia-e-hamilton-fotomontagem.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-HK-gourmet.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-hong-kong-fotomontagem-com-praca.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/04/precon-ville-hong-kong-praca.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Acabamento",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Conveniência",
+                "description": "gás canalizado, lavanderia compartilhada, carro compartilhado."
+            },
+            {
+                "id": 3,
+                "title": "Áreas de lazer",
+                "description": "Salão de festas, Espaço gourmet coberto, playground e sala de jogos."
+            },
+            {
+                "id": 4,
+                "title": "Elevadores em todas as torres",
+                "description": "instalação de sistemas de elevadores em todas as torres para facilitar sua vida."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "city": "Vespasiano",
+        "description": "O Ville Violeta tem tudo o que você precisa para viver com mais tranquilidade e conforto! Com um elevador por torre, vaga de garagem exclusiva, portaria com guarita e lavanderia compartilhada, que você só paga quando utilizar.",
+        "road": "Rua Afonso Pena",
+        "neighborhood": "Santo Antônio",
+        "lat": "-19.700953",
+        "lon": "-43.920275",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Ville Violeta",
+        "number": 1180,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/08/precon-ville-violeta-fachada-guarita-bxbx.jpg",
+        "images": [
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/08/precon-ville-violeta-fachada-guarita-bxbx.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/09/precon-ville-violeta-fotomontagem.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/09/precon-ville-violeta-espaco-pet-interno.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2020/09/precon-ville-violeta-ilha-gourmet.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Acabamento",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Conveniência",
+                "description": "gás canalizado, lavanderia compartilhada, carro compartilhado."
+            },
+            {
+                "id": 3,
+                "title": "Áreas de lazer",
+                "description": "Salão de festas, Espaço gourmet coberto, playground e sala de jogos."
+            },
+            {
+                "id": 4,
+                "title": "Elevadores em todas as torres",
+                "description": "instalação de sistemas de elevadores em todas as torres para facilitar sua vida."
+            },
+            {
+                "id": 5,
+                "title": "Área verde",
+                "description": "Espaço de terra que é utilizado para a conservação e preservação de vegetação natural, como árvores, plantas e gramados, além de abrigar animais e insetos em seu habitat natural. "
+            },
+            {
+                "id": 6,
+                "title": "Paredes removíveis",
+                "description": "estruturas de parede que podem ser facilmente desmontadas e removidas sem danificar a estrutura ou acabamento da parede adjacente."
+            },
+            {
+                "id": 7,
+                "title": "Acabamento termoacústico",
+                "description": "É um tipo de acabamento aplicado em paredes, pisos, tetos e outras superfícies para proporcionar isolamento acústico e térmico ao ambiente"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "city": "Vespasiano",
+        "description": "Sua vida no Ville Vermont vai ser ótima dentro e fora de casa. Para quem gosta de receber convidados e de um bom churrasco, tem a ilha de churrasqueira, playground para as crianças e ainda um espaço fitness para você cuidar de sua saúde.",
+        "road": "Rua 2,",
+        "neighborhood": "Nova Pampulha",
+        "lat": "-19.773063",
+        "lon": "-43.955694",
+        "stateAbbreviation": "MG",
+        "status": "Obras avançadas!",
+        "residential": "Ville Vermont",
+        "number": 470,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/ville_vermont_1.jpg",
+        "images": [
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/ville_vermont_3.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/ville_vermont_4.jpg",
+            "https://meu-precon-cnfrdrakdeedg7fs.z01.azurefd.net/wp-content/uploads/2019/10/ville_vermont_2.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Acabamento",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Conveniência",
+                "description": "gás canalizado, lavanderia compartilhada, carro compartilhado."
+            },
+            {
+                "id": 3,
+                "title": "Áreas de lazer",
+                "description": "Salão de festas, Espaço gourmet coberto, playground e sala de jogos."
+            },
+            {
+                "id": 4,
+                "title": "Elevadores em todas as torres",
+                "description": "instalação de sistemas de elevadores em todas as torres para facilitar sua vida."
+            },
+            {
+                "id": 5,
+                "title": "Área verde",
+                "description": "Espaço de terra que é utilizado para a conservação e preservação de vegetação natural, como árvores, plantas e gramados, além de abrigar animais e insetos em seu habitat natural. "
+            },
+            {
+                "id": 6,
+                "title": "Paredes removíveis",
+                "description": "estruturas de parede que podem ser facilmente desmontadas e removidas sem danificar a estrutura ou acabamento da parede adjacente."
+            },
+            {
+                "id": 7,
+                "title": "Acabamento termoacústico",
+                "description": "É um tipo de acabamento aplicado em paredes, pisos, tetos e outras superfícies para proporcionar isolamento acústico e térmico ao ambiente"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "city": "Belo Horizonte",
+        "description": "O Alto Riviera é feito para quem quer morar bem. Aqui, você encontra tudo o que precisa em uma localização privilegiada no Santa Helena Barreiro, que conta com uma infraestrutura completa. Garanta qualidade de vida e conforto para você e toda sua família. A Renda Mínima familiar para esse empreendimento é de R$4.500,00 o que quer dizer que você pode compor com outra pessoa.",
+        "road": "Rua José Forcal,",
+        "neighborhood": "Santa Helena",
+        "lat": "-19.985521",
+        "lon": "-44.011583",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Alto Riviera",
+        "number": 0,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2020/12/3-1.png",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/3-1.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/Quartzo-Alto-Riviera-Espaco-Gourmet.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/Quartzo-Alto-Riviera-Lazer.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/6.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/7.png"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "2 Elevadores por torre",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Piscina",
+                "description": "Área de pscina para se refrescar com amigo ou familiares"
+            },
+            {
+                "id": 3,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 3,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 4,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 5,
+                "title": "Espaço Fitness",
+                "description": "Uma área destinada à prática de atividades físicas, como musculação, ginástica, dança, entre outros exercícios."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "city": "Belo Horizonte",
+        "description": "Viva com mais conforto e praticidade! O Alto Redentor tem tudo o que você precisa para sua nova vida. Além da instalação de um centro comercial com 10 lojas no mesmo terreno, tem ónibus na porta e fica próximo do Cristo do bairro Milionários. Uma excelente opção para você e sua família! A Renda Mínima familiar para esse empreendimento é de R$4.500,00",
+        "road": "Rua Doná Lalá",
+        "neighborhood": "Milionários",
+        "lat": "-19.979128",
+        "lon": "-44.003391",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Alto Redentor",
+        "number": 338,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2020/12/FACHADA.jpeg",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/SQUAD_QUARTZO_ALTO_REDENTOR_AEREA_R01.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/FACHADA.jpeg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/8-2.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/11-1.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/5-1.png"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "2 Elevadores por torre",
+                "description": "Piso em cerâmica no banheiro, cozinha e lavanderia, teto rebaixado em gesso para o banheiro, piso laminado em madeira nos quartos, sala e áreas de circulação."
+            },
+            {
+                "id": 2,
+                "title": "Piscina",
+                "description": "Área de pscina para se refrescar com amigo ou familiares"
+            },
+            {
+                "id": 3,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 4,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            },
+            {
+                "id": 5,
+                "title": "Espaço Fitness",
+                "description": "Uma área destinada à prática de atividades físicas, como musculação, ginástica, dança, entre outros exercícios."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "city": "Belo Horizonte",
+        "description": "O Alto Boa Vista é um condomínio completo e sustentável para você e sua família. Apartamentos de 2 quartos, com lazer completo e com vista para a Serra do Curral. Localização privilegiada, próximo ao Shopping Estação.",
+        "road": "Rua António Carvalho",
+        "neighborhood": "Juliana",
+        "lat": "-19.817614",
+        "lon": "-43.940025",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Alto Boa Vista",
+        "number": 105,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2020/11/3-11.png",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/3-11.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/4.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/QUARTZO-ED.-Alto-Boa-Vista-Salao-de-Festas.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/QUARTZO-ED.-Alto-Boa-Vista-Fotoinsercao_Localizacao-scaled.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/Quartzo-Novo-Horizonte-Apto-208-Sala-04a.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer de Clube",
+                "description": "Piscina, quadra de esportes, academia, sala de jogos, entre outras opções."
+            },
+            {
+                "id": 2,
+                "title": "Piscina",
+                "description": "Área de pscina para se refrescar com amigo ou familiares"
+            },
+            {
+                "id": 3,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 5,
+                "title": "Playground",
+                "description": "Um espaço projetado para crianças brincarem e se divertirem com equipamentos especialmente desenvolvidos para esse fim."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "city": "Contagem",
+        "description": "No Alto da Mata, você pode morar em um apê de 2 quartos bem aconchegante em um condomínio exclusivo, com torre única e elevador. O seu novo apê conta com piso laminado na sala e nos quartos, bancada da cozinha em granito e sala com ou sem varanda, além de uma área de lazer perfeita com salão de festas mobiliado, churrasqueira, playground e pet place. É qualidade de vida e conforto garantidos para toda a família!",
+        "neighborhood": "Bairro Jardim Alvorada",
+        "road": "Rua Contagem",
+        "lat": "-19.836796",
+        "lon": "-44.035108",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Alto da Mata",
+        "number": 105,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2020/11/Quartzo-Alto-da-Mata-Torres-2.jpg",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/Quartzo-Alto-da-Mata-Torres-2.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/11.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/10.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/9.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/11/3-2.png"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Pet Place",
+                "description": "Um espaço destinado aos animais de estimação, geralmente localizado em áreas públicas ou condomínios."
+            },
+            {
+                "id": 2,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 3,
+                "title": "Playground",
+                "description": "Um espaço projetado para crianças brincarem e se divertirem com equipamentos especialmente desenvolvidos para esse fim."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "city": "Contagem",
+        "description": "O Alto do Ouro é um projeto completo e exclusivo para você e sua família. Apartamentos de 2 quartos e com lazer completo na melhor localização de Contagem. A Renda Mínima familiar para esse empreendimento é de R$6.500,00 o que quer dizer que você pode compor renda com outra pessoa.",
+        "neighborhood": "Eldorado",
+        "road": "Rua Me. Mar. Fontanaresa",
+        "lat": "-19.943559",
+        "lon": "-44.042852",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Alto do Ouro",
+        "number": 75,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,96 m² a 62,27 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Design-sem-nome-7.png",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Design-sem-nome-7.png",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Areas-Comuns-Mini-Mercado.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Areas-Comuns-Academia.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Portaria-1.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Torres-scaled.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Apartamento-Tipo-Ponta-Cozinha-scaled.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Apartamento-Tipo-Ponta-Quarto-Solteiro-1-scaled.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2021/11/Quartzo-Ed.-Alto-do-Ouro-Areas-Comuns-Piscina.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer de Clube",
+                "description": "Piscina, quadra de esportes, academia, sala de jogos, entre outras opções."
+            },
+            {
+                "id": 2,
+                "title": "Piscina",
+                "description": "Área de pscina para se refrescar com amigo ou familiares"
+            },
+            {
+                "id": 3,
+                "title": "Salão de Festas",
+                "description": "Um espaço destinado para a realização de eventos sociais, como casamentos, aniversários, formaturas, entre outros."
+            },
+            {
+                "id": 5,
+                "title": "Espaço Kids",
+                "description": "Um espaço projetado para crianças brincarem e se divertirem com equipamentos especialmente desenvolvidos para esse fim."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "city": "Belo Horizonte",
+        "description": "O Uno Residencial traz toda exclusividade da torre única e localização privilegiada em Venda Nova. Facilidade de acesso, estrutura comercial completa, mobilidade, lazer e qualidade de vida, fazem do Uno Residencial único.",
+        "neighborhood": "Jardim dos Comerciários",
+        "road": "Rua César Salles Barbosa",
+        "lat": "-19.798670",
+        "lon": "-43.977083",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Uno Residencial",
+        "number": 129,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "43,26M²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2021/08/FACHADA-UNO-RESIDENCIAL.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2021/08/FITNESS-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/GUARITA-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/PERGOLADO-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/PETPLACE-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/PISCINA-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/PLAYGROUND-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/QUADRA-UNO-RESIDENCIAL.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/08/VISAO-AEREA-UNO-RESIDENCIAL.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Condomínio Fechado",
+                "description": "Condomínio de acesso privativo, garantindo mais privacidade e segurança para sua família. "
+            },
+            {
+                "id": 2,
+                "title": "Bicicletário",
+                "description": "Gosta de andar de bike? Tenha um espaço exclusivo para guardar sua bicicleta com total segurança."
+            },
+            {
+                "id": 3,
+                "title": "Coworking",
+                "description": "Espaço com mesas e cadeiras para você realizar reuniões e/ou trabalhar e estudar com tranquilidade. "
+            },
+            {
+                "id": 5,
+                "title": "Localização Privilegiada",
+                "description": "More em uma localização privilegiada, com comodidades e diversas opções de comércio, transporte e lazer."
+            },
+            {
+                "id": 6,
+                "title": "Quadra Poliesportiva",
+                "description": "Quadra bem estruturada para a prática de diversos esportes como futebol, vôlei, tênis, basquete e muito mais!"
+            },
+            {
+                "id": 7,
+                "title": "Playground e Pergolado",
+                "description": "Espaço equipado com brinquedos e acessórios para a diversão completa das crianças."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "city": "Belo Horizonte",
+        "description": "Um novo momento está chegando. Você viverá seus melhores dias em um empreendimento diferenciado em Venda Nova: o Sunset Residencial. Seu refúgio de exclusividade, conforto, qualidade de vida e diversão! Seu novo estilo de vida terá mais tranquilidade.",
+        "neighborhood": "Mantiqueira",
+        "road": "Rua Quatro Mil Duzentos e Vinte e Dois",
+        "lat": "-19.799436",
+        "lon": "-43.979369",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Sunset Residencial",
+        "number": 0,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "9.136,77 m2",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2022/11/Portaria-Sunset-Residencial-Direcional-1.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2022/11/Portaria-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Piscina-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Salao-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Cowork-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Academia-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Quadra-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Bicicletario-Sunset-Residencial-Direcional-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/11/Petplace-Sunset-Residencial-Direcional-1.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer Completo",
+                "description": "Opções de lazer para toda a família, desde espaços para praticar atividades físicas até áreas exclusivas para garantir a diversão das crianças."
+            },
+            {
+                "id": 2,
+                "title": "Espaço Gourmet",
+                "description": "Reúna amigos e familiares em um espaço gourmet amplo e equipado para celebrar grandes momentos."
+            },
+            {
+                "id": 3,
+                "title": "Localização Privilegiada",
+                "description": "More em uma localização privilegiada, com comodidades e diversas opções de comércio, transporte e lazer."
+            },
+            {
+                "id": 5,
+                "title": "Condomínio Fechado",
+                "description": "Condomínio de acesso privativo, garantindo mais privacidade e segurança para sua família. "
+            },
+            {
+                "id": 6,
+                "title": "Espaço Fitness",
+                "description": "Leve uma vida mais saudável praticando atividades físicas no Espaço Fitness, que já vem equipado para você dar esse grande passo de cuidados com a sua saúde."
+            },
+            {
+                "id": 7,
+                "title": "Qualidade de Vida",
+                "description": "Tenha mais qualidade de vida aproveitando o lazer completo do condomínio e viva com mais comodidade e praticidade oferecidas pela excelente localização."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "city": "Belo Horizonte",
+        "description": "O condomínio Solar Vistas do Horizonte oferece bem-estar e comodidade na região do Floramar, com excelente localização e fácil acesso às principais vias.",
+        "neighborhood": "Jardim Guanabara",
+        "road": "Rua Ana Dias Duarte",
+        "lat": "-19.828539",
+        "lon": "-43.940145",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Solar Vistas do Horizonte",
+        "number": 140,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "46,14 m² a 50,69 m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-portaria-1.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-portaria-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-foto-insercao-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-petplace-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-playground-2.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-playground2-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-fachada-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-quadra-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-solar-vistas-do-horizonte-quarto-1.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Vista Privilegiada",
+                "description": "Este empreendimento conta com apartamentos com uma vista surpreendente de paisagens!"
+            },
+            {
+                "id": 2,
+                "title": "Piso laminado",
+                "description": "Para quê se preocupar com reformas na hora de fazer sua mudança? Entregamos seu apartamento já com piso, pronto para você morar! "
+            },
+            {
+                "id": 3,
+                "title": "Localização Privilegiada",
+                "description": "More em uma localização privilegiada, com comodidades e diversas opções de comércio, transporte e lazer."
+            },
+            {
+                "id": 5,
+                "title": "Playgrounds",
+                "description": "Espaço equipado com brinquedos e acessórios para a diversão completa das crianças."
+            },
+            {
+                "id": 6,
+                "title": "Condições Facilitadas",
+                "description": "Flexibilidade e facilidade para sempre se ajustar às suas condições de pagamento."
+            },
+            {
+                "id": 7,
+                "title": "Segurança",
+                "description": "Para a tranquilidade da sua família, o condomínio conta com segurança particular 24 horas por dia."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "city": "Belo Horizonte",
+        "description": "Em uma localização estratégica, o Reserva dos Ipês proporciona comodidade total para o dia a dia, com a tranquilidade de um condomínio fechado.",
+        "neighborhood": "Diamante",
+        "road": "Rua Antônio Alves",
+        "lat": "-19.987787",
+        "lon": "-44.031863",
+        "stateAbbreviation": "MG",
+        "status": "Em Construção",
+        "residential": "Reserva dos Ipês",
+        "number": 300,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "47,40 m² a 51,96 m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-guarita.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-guarita.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-churrasqueira.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-fachada.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-fitness.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-bicicletario.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-pergolado.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-piscina-1.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-reserva-dos-ipes-playground.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Piscina",
+                "description": "O empreendimento oferece mais essa opção de lazer e diversão para você curtir nos dias quentes. "
+            },
+            {
+                "id": 2,
+                "title": "Ar condicionado",
+                "description": "Este empreendimento tem previsão para infraestrutura de ar condicionado split. Perfeito para os dias mais quentes!"
+            },
+            {
+                "id": 3,
+                "title": "Portaria com pórtico imponente",
+                "description": "Portaria 24 horas para você ter liberdade de acesso ou saída do condomínio com segurança."
+            },
+            {
+                "id": 5,
+                "title": "Piso em laminado",
+                "description": "Para quê se preocupar com reformas na hora de fazer sua mudança? Entregamos seu apartamento já com piso, pronto para você morar!"
+            },
+            {
+                "id": 6,
+                "title": "Acabamento diferenciado",
+                "description": "Apartamento com acabamento diferenciado, valorizando o imóvel, prezando pela funcionalidade e beleza."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "city": "Contagem",
+        "description": "O Condomínio Conquista Alvorada é um empreendimento residencial localizado na região do bairro Nacional em Contagem, próximo à Lagoa da Pampulha. O condomínio foi projetado para oferecer segurança, tranquilidade e conforto. More na segurança de um condomínio fechado. O empreendimento conta com portaria 24 horas, proteção dos moradores e visitantes.",
+        "neighborhood": "Caiapos",
+        "road": "Rua Minas Gerais",
+        "lat": "-19.837863",
+        "lon": "-44.037389",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Conquista Alvorada",
+        "number": 286,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "41,40 m² a 51,96 m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2023/02/portaria-Conquista-Alvorada-Direcional-1.jpg",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2023/02/portaria-Conquista-Alvorada-Direcional-1.jpg",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Varanda-Gourmet-Conquista-Alvorada-Direcional-2.jpg",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Churrasqueira-Conquista-Alvorada-Direcional-1.jpg",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Fitness-Conquista-Alvorada-Direcional-2.png",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Playground-Conquista-Alvorada-Direcional-2.png",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Piscina-Conquista-Alvorada-Direcional-1.jpg",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Churrasqueira-Conquista-Alvorada-Direcional-1-1.jpg",
+            "https://direcional.com.br/wp-content/uploads/2023/02/Varanda-Gourmet-Conquista-Alvorada-Direcional-1-1.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer Completo",
+                "description": "Opções de lazer para toda a família, desde espaços para praticar atividades físicas até áreas exclusivas para garantir a diversão das crianças."
+            },
+            {
+                "id": 2,
+                "title": "Utilize seu FGTS",
+                "description": "Se você possui 3 anos com carteira assinada, pode usar o saldo do FGTS para comprar o imóvel."
+            },
+            {
+                "id": 3,
+                "title": "Portaria 24 Horas",
+                "description": "Para a tranquilidade da sua família, o condomínio conta com segurança particular 24 horas por dia."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "city": "Vespasiano",
+        "description": "Para transformar vidas, a Direcional transforma regiões. Em Contagem não foi diferente. Com uma história de sucesso e conquistas, a Direcional trouxe mais um projeto grandioso para a cidade mineira: o Alto da Conquista. Um novo bairro na região do Arvoredo II, com vista privilegiada e localização diferenciada.",
+        "neighborhood": "Nova Pampulha",
+        "road": "Rua Dezoito",
+        "lat": "-19.837863",
+        "lon": "-44.037389",
+        "stateAbbreviation": "MG",
+        "status": "Obras avançadas!",
+        "residential": "Conquista Monte Belo",
+        "number": 185,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "42,41M m² a 54,01 m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2022/05/Guarita-Conquista-Monte-Belo-Direcional.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2022/05/Guarita-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Piscina-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Salao-de-Festas-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Churrasqueira-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/PlayGround-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Espaco-Fitness-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Horta-Conquista-Monte-Belo-Direcional.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2022/05/Garden-Conquista-Monte-Belo-Direcional.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Lazer com piscina",
+                "description": "O empreendimento oferece mais essa opção de lazer e diversão para você curtir nos dias quentes. "
+            },
+            {
+                "id": 2,
+                "title": "Espaço Gourmet",
+                "description": "Reúna amigos e familiares em um espaço gourmet amplo e equipado para celebrar grandes momentos."
+            },
+            {
+                "id": 3,
+                "title": "Localização Privilegiada",
+                "description": "More em uma localização privilegiada, com comodidades e diversas opções de comércio, transporte e lazer."
+            },
+            {
+                "id": 4,
+                "title": "Condomínio Fechado",
+                "description": "Condomínio de acesso privativo, garantindo mais privacidade e segurança para sua família."
+            },
+            {
+                "id": 5,
+                "title": "Segurança 24h",
+                "description": "Para a tranquilidade da sua família, o condomínio conta com segurança particular 24 horas por dia."
+            },
+            {
+                "id": 6,
+                "title": "Qualidade de Vida",
+                "description": "Tenha mais qualidade de vida aproveitando o lazer completo do condomínio e viva com mais comodidade e praticidade oferecidas pela excelente localização."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "city": "Contagem",
+        "description": "Para transformar vidas, a Direcional transforma regiões. Em Contagem não foi diferente. Com uma história de sucesso e conquistas, a Direcional trouxe mais um projeto grandioso para a cidade mineira: o Conquista Bela Vista. Um novo bairro na região do Estrela Dalva, com vista privilegiada e localização diferenciada.",
+        "neighborhood": "Estrela Dalva",
+        "road": "Rua Dimas Perrin",
+        "lat": "-19.867363",
+        "lon": "-44.024470",
+        "stateAbbreviation": "MG",
+        "status": "Obras avançadas!",
+        "residential": "Conquista Bela Vista",
+        "number": 175,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "42,41m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_GUARITA_R04_BAIXA.jpeg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_GUARITA_R04_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_AEREA_R04_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_CHURRASQUEIRA_R04_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_FITNESS_R05_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_GOURMET_R04_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_HORTA_R05_BAIXA.jpeg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/SQUAD_DIRECIONAL_540-02_CONFISCO_IMG_PIQUENIQUE_R05_BAIXA.jpeg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Prox. ao Shopping",
+                "description": "Você terá mais comodidade e praticidade morando ao lado de um shopping!"
+            },
+            {
+                "id": 2,
+                "title": "Próx. a comércios e serviços",
+                "description": "Diversas opções de comércio perto do condomínio, garantindo mais comodidade e praticidade para seu dia a dia."
+            },
+            {
+                "id": 3,
+                "title": "Prox. a região da Pampulha",
+                "description": "More em uma localização privilegiada, com comodidades e diversas opções de comércio, transporte e lazer."
+            },
+            {
+                "id": 4,
+                "title": "Piso laminado nos quartos",
+                "description": "Para quê se preocupar com reformas na hora de fazer sua mudança? Entregamos seu apartamento já com piso, pronto para você morar!"
+            },
+            {
+                "id": 5,
+                "title": "Vista privilegiada",
+                "description": "Este empreendimento conta com apartamentos com uma vista surpreendente."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "city": "Betim",
+        "description": "Para transformar vidas, a Direcional transforma regiões. Em Contagem não foi diferente. Com uma história de sucesso e conquistas, a Direcional trouxe mais um projeto grandioso para a cidade mineira: o Conquista Bem Estar. Um novo bairro na região do Vila Cristina, com vista privilegiada e localização diferenciada.",
+        "neighborhood": "Vila Cristina",
+        "road": "Av. Eng. Darcy Nogueira do Pinho",
+        "lat": "-19.935207",
+        "lon": "-44.134422",
+        "stateAbbreviation": "MG",
+        "status": "Obras avançadas!",
+        "residential": "Conquista Bem Estar",
+        "number": 2958,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "42,99 m²",
+        "cardImage": "https://direcional.com.br/wp-content/uploads/2021/06/mg-conquista-bem-estar-guarita.jpg.webp",
+        "images": [
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-conquista-bem-estar-churrasqueira.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/mg-conquista-bem-estar-playground.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/379-UN-IMG-UN-F008-PER-ACO-SF-R00.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/379-UN-IMG-UN-F006-PER-ACO-FI-R01.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/379-UN-IMG-UN-F015-PER-APT-QT-R00.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/379-UN-IMG-UN-F016-PER-APT-EJ-R00.jpg.webp",
+            "https://direcional.com.br/wp-content/uploads/2021/06/379-UN-IMG-UN-F016-PER-APT-EJ-R00.jpg.webp"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Subsídio",
+                "description": "Realize seu sonho com o auxílio do novo programa habitacional do governo federal, que disponibiliza um valor em dinheiro para ser usado na compra do imóvel*."
+            },
+            {
+                "id": 2,
+                "title": "FGTS",
+                "description": "Se você possui 3 anos com carteira assinada, pode usar o saldo do FGTS para comprar o imóvel."
+            },
+            {
+                "id": 3,
+                "title": "Entrada Facilitada",
+                "description": "Na Direcional, a entrada do seu apartamento é facilitada para se adequar às suas condições de pagamento."
+            },
+            {
+                "id": 4,
+                "title": "Comercio Local",
+                "description": "Diversas opções de comércio perto do condomínio, garantindo mais comodidade e praticidade para seu dia a dia."
+            },
+            {
+                "id": 5,
+                "title": "Piso laminado nos quartos",
+                "description": "Para quê se preocupar com reformas na hora de fazer sua mudança? Entregamos seu apartamento já com piso, pronto para você morar!"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "city": "Contagem",
+        "description": "O Europa Imperial é um condomínio fechado com apartamentos de 3 quartos com varanda e área de lazer completa, com piscina, salão de festas, quadra gramada, playground e muito mais! More no maior complexo residencial de Contagem, com fácil acesso à Via Expressa e pertinho do Supermercados BH.",
+        "neighborhood": "Vila Beneves",
+        "road": "Rua do Registro",
+        "lat": "-19.897189",
+        "lon": "-44.092577",
+        "stateAbbreviation": "MG",
+        "status": "Obras iniciadas",
+        "residential": "Europa Imperial",
+        "number": 1523,
+        "countBathrooms": 1,
+        "countRooms": 3,
+        "garages": 1,
+        "size": "58m²",
+        "cardImage": "https://emccamp.com.br//box/uploads/2022/04/875x380-desktop-imagens-principais-europaimperial.jpg",
+        "images": [
+            "https://emccamp.com.br//box/uploads/2022/04/875x380-desktop-imagens-principais-europaimperial.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-fachada.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-piscina.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-sala.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-cozinha.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-quarto1.jpg",
+            "https://emccamp.com.br//box/uploads/2022/04/europaimperial-quarto2.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Piscina",
+                "description": "Espaço de lazer que conta com uma(s) piscina como elemento principal."
+            },
+            {
+                "id": 2,
+                "title": "Salão de Festas",
+                "description": "Espaço projetado para a realização de eventos, como festas de aniversário, casamentos, reuniões, entre outros."
+            },
+            {
+                "id": 3,
+                "title": "Quadra Gramada",
+                "description": "Área esportiva que consiste em um campo de grama natural ou sintética, projetado para a prática de esportes como futebol, rugby e críquete. "
+            },
+            {
+                "id": 4,
+                "title": "Comercio Local",
+                "description": "Diversas opções de comércio perto do condomínio, garantindo mais comodidade e praticidade para seu dia a dia."
+            },
+            {
+                "id": 5,
+                "title": "Pomar",
+                "description": "Área cultivada com árvores frutíferas, como laranjeiras, maçãzeiras, pessegueiros, entre outras"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "city": "Contagem",
+        "description": "O primeiro empreendimento de 2 quartos do maior complexo residencial de Contagem: o Gran Europa. Acesse o Chat Online para receber mais informações do seu futuro apartamento, ver mais fotos e agendar uma visita.",
+        "neighborhood": "Vila Beneves",
+        "road": "Rua do Registro",
+        "lat": "-19.897189",
+        "lon": "-44.092577",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Gran Europa",
+        "number": 1523,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "44m²",
+        "cardImage": "https://emccamp.com.br//box/uploads/2021/05/875x380-desktop-imagens-principais1-5.jpg",
+        "images": [
+            "https://emccamp.com.br//box/uploads/2021/05/875x380-desktop-imagens-principais1-5.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensRooftop.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensPiscina.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensPlayground.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensAcademia.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensSalao-de-Festas.jpg",
+            "https://emccamp.com.br//box/uploads/2021/04/ImagensTipologia-2.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Piscina Adulto e Infantil",
+                "description": "Espaço de lazer que conta com uma(s) piscina como elemento principal."
+            },
+            {
+                "id": 2,
+                "title": "Área Fitness descoberta",
+                "description": "Espaço aberto, geralmente em ambientes externos, destinado a atividades físicas e exercícios ao ar livre."
+            },
+            {
+                "id": 3,
+                "title": "Quadra",
+                "description": "Área esportiva projetada para a prática de esportes como futebol, vôley e etc. "
+            },
+            {
+                "id": 4,
+                "title": "Playground",
+                "description": "Espaço equipado com brinquedos e acessórios para a diversão completa das crianças."
+            },
+            {
+                "id": 5,
+                "title": "Área Verde para Preservação Ambiental",
+                "description": "Área cultivada com árvores frutíferas, como laranjeiras, maçãzeiras, pessegueiros, entre outras"
+            }
+        ]
     }
 ]

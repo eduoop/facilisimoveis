@@ -58,4 +58,12 @@ export const AllCites: City[] = [
         state: "MG",
         slug: "sete-lagoas"
     },
+    {
+        id: "8",
+        name: "Vespasiano",
+        smallName: "vespasiano",
+        abbreviation: "VN",
+        state: "MG",
+        slug: "vespasiano"
+    }
 ]

@@ -168,7 +168,7 @@ const Page = ({ params }: { params: any }) => {
                         <div className='flex flex-col w-[60%] sm:w-full'>
                             <div className='flex flex-col w-full'>
                                 <h1 className='font-display font-bold text-[20px] text-slate-950'>{property.residential} <br /> {property.neighborhood} - {property.stateAbbreviation}</h1>
-                                <h2>{property.road}, {property.number} - {property.neighborhood} - {property.city}/{property.stateAbbreviation}</h2>
+                                <h2>{property.road} - {property.neighborhood} - {property.city}/{property.stateAbbreviation}</h2>
                             </div>
 
                             <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />
@@ -234,7 +234,7 @@ const Page = ({ params }: { params: any }) => {
                             <div className='w-[100%] h-[1px] bg-zinc-800/10 my-5' />
 
                             {/* Property differentials */}
-                            <div className='w-full flex- flex-col sm:w-[95%]'>
+                            <div className='w-full flex- flex-col sm:w-[95%] pb-6'>
                                 <h1 className='font-display font-bold text-[20px] text-slate-950 mb-3'>
                                     Diferenciais:
                                 </h1>
