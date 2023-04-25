@@ -28,14 +28,6 @@ export const AllCites: City[] = [
     },
     {
         id: "4",
-        name: "Juiz de Fora",
-        smallName: "juiz de fora",
-        abbreviation: "JF",
-        state: "MG",
-        slug: "juiz-de-fora"
-    },
-    {
-        id: "5",
         name: "Betim",
         smallName: "betim",
         abbreviation: "BT",
@@ -43,7 +35,7 @@ export const AllCites: City[] = [
         slug: "betim"
     },
     {
-        id: "6",
+        id: "5",
         name: "Santa Luzia",
         smallName: "santa luzia",
         abbreviation: "SL",
@@ -51,7 +43,7 @@ export const AllCites: City[] = [
         slug: "santa-luzia"
     },
     {
-        id: "7",
+        id: "6",
         name: "Sete Lagoas",
         smallName: "sete lagoas",
         abbreviation: "SL",
@@ -59,7 +51,7 @@ export const AllCites: City[] = [
         slug: "sete-lagoas"
     },
     {
-        id: "8",
+        id: "7",
         name: "Vespasiano",
         smallName: "vespasiano",
         abbreviation: "VN",
