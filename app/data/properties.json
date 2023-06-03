@@ -1689,5 +1689,115 @@
                 "description": "Área cultivada com árvores frutíferas, como laranjeiras, maçãzeiras, pessegueiros, entre outras"
             }
         ]
+    },
+    {
+        "id": 30,
+        "city": "Contagem",
+        "description": "Seu apartamento de dois quartos com lazer completo no melhor do Bairro Nacional. Aqui, você encontra tudo o que precisa em uma localização privilegiada. Garanta qualidade de vida e conforto para você e toda sua família. A Renda Mínima familiar para esse empreendimento é de R$ 2.800,00 o que quer dizer que você pode compor com outra pessoa.",
+        "neighborhood": "Vila Beneves",
+        "road": "Rua Contagem",
+        "lat": "-19.836871",
+        "lon": "-44.035742",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "Belo Jacarandá",
+        "number": 170,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "41,40 m² a 51,96 m²",
+        "cardImage": "https://vivaquartzo.com.br/wp-content/uploads/2020/12/01-1.jpg",
+        "images": [
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/01-1.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/03-1.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/04-1.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/05-1.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/06.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/07.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/08.jpg",
+            "https://vivaquartzo.com.br/wp-content/uploads/2020/12/09.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Piscina",
+                "description": "Espaço de lazer que conta com uma(s) piscina como elemento principal."
+            },
+            {
+                "id": 2,
+                "title": "Espaço Fitness",
+                "description": "academia residencial, desenvolvida para o lazer e convívio dos moradores."
+            },
+            {
+                "id": 3,
+                "title": "Pet Place",
+                "description": "Ambiente pensado justamente nas necessidades do pet, contendo brinquedos e objetos, dentro do próprio condomínio onde o dono possa interagir de maneira mais livre com o seu animal de estimação."
+            },
+            {
+                "id": 4,
+                "title": "Playground",
+                "description": "Espaço equipado com brinquedos e acessórios para a diversão completa das crianças."
+            },
+            {
+                "id": 5,
+                "title": "Bicicletário",
+                "description": "Incentivando mais uma vez o bem estar e a sustentabilidade, a MRV cria espaços exclusivos para o estacionamento de bicicletas dentro dos condomínios. As vagas no bicicletário são limitadas."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "city": "Betim",
+        "description": "Sua casa em Betim-MG com dois quartos e área privativa em condomínio fechado com lazer completo, confira!",
+        "neighborhood": "Bandeirinhas",
+        "road": "Avenida Fausto Ribeiro da Silva",
+        "lat": "-20.002099",
+        "lon": "-44.173382",
+        "stateAbbreviation": "MG",
+        "status": "Lançamento",
+        "residential": "-44.173382",
+        "number": 2580 ,
+        "countBathrooms": 1,
+        "countRooms": 2,
+        "garages": 1,
+        "size": "41,40 m² a 51,96 m²",
+        "cardImage": "https://davilareis.com/upload/editor/f9900324-eb8e-43f0-912f-449ba683b2b0.jpg",
+        "images": [
+            "https://davilareis.com/upload/editor/21327cc9-0b0e-4d48-acfa-c02a1174a6bd.jpg",
+            "https://davilareis.com/upload/editor/c7949d2f-a528-452d-8bb6-2a4d4e89b7ba.jpg",
+            "https://davilareis.com/upload/editor/561b7457-2f86-44a1-b8c9-8ab253a33009.jpg",
+            "https://davilareis.com/upload/editor/403cd65d-8ad6-46df-94f2-87ffedc66782.jpg",
+            "https://davilareis.com/upload/editor/104ab88a-ca31-45b6-9acc-8056fcff64ff.jpg",
+            "https://davilareis.com/upload/editor/12893913-47f0-4f96-96f0-bfcc06a0a7af.jpg",
+            "https://davilareis.com/upload/editor/b1889c2f-4ab2-4873-8295-6d576d7537eb.jpg",
+            "https://davilareis.com/upload/editor/c6f2b3ec-9629-4197-a269-780fac4830b3.jpg"
+        ],
+        "differentials": [
+            {
+                "id": 1,
+                "title": "Piscina",
+                "description": "Espaço de lazer que conta com uma(s) piscina como elemento principal."
+            },
+            {
+                "id": 2,
+                "title": "Area de Lazer",
+                "description": "Espaço usado para atividades agradáveis, prazerosas."
+            },
+            {
+                "id": 3,
+                "title": "Área Privativa",
+                "description": "Aquilo que você compra, que só você pode usar, inclusive a área que está embaixo da parede. Paredes estas, se de divisa com o vizinho são computadas até a metade, já as paredes entre dois quartos do mesmo apartamento, por exemplo, é integralmente área privativa."
+            },
+            {
+                "id": 4,
+                "title": "Segurança",
+                "description": "Segurança e tranquilidade de morar no que é seu."
+            },
+            {
+                "id": 5,
+                "title": "Descontos",
+                "description": "Possibilidade de conseguir descontos incríveis e utilizar o saldo do seu FGTS."
+            }
+        ]
     }
 ]
