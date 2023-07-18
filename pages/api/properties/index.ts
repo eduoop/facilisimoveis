@@ -27,13 +27,10 @@ export default function handler(req: any, res: any) {
 
   const { method, query } = req;
 
-  console.log(query)
-
   switch (method) {
     case 'GET':
       const state = query.state
       const city = query.city
-      console.log(state, city)
 
       const allProperties: Property[] = require('../../../app/data/properties.json');
 

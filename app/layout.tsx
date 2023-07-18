@@ -13,10 +13,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 
-  useEffect(() => {
-    console.log("Render Layout")
-  }, [])
-
   return (
     <html lang="en">
       {/*
@@ -29,7 +25,7 @@ export default function RootLayout({
           <Nav />
           <FilterCity />
           <Toaster />
-          {children}
+          {/* {children} */}
         </PropertiesContextProvider>
         <Footer/>
       </body>

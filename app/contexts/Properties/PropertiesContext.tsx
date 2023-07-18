@@ -36,10 +36,6 @@ export const PropertiesContextProvider = ({ children }: { children: any }) => {
         setProperties(data.filteredProperties)
     }
 
-    useEffect(() => {
-        console.log("Render context")
-      }, [])
-
     return (
         <GlobalContext.Provider value={{ city, getProperties, properties, setCity, setProperties, setState, state }}>
             {children}
