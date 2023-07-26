@@ -25,7 +25,7 @@ export default function RootLayout({
           <Nav />
           <FilterCity />
           <Toaster />
-          {/* {children} */}
+          {children}
         </PropertiesContextProvider>
         <Footer/>
       </body>
