@@ -90,6 +90,8 @@ const Page = ({ params }: { params: any }) => {
         setMap(null)
     }, [])
 
+    console.log(isLoaded)
+
     return (
         <div className='flex flex-col w-screen'>
             {currentView === "photos" &&
@@ -129,8 +131,8 @@ const Page = ({ params }: { params: any }) => {
 
             }
 
-            {currentView === "maps" &&
-                <div className='w-full flex items-center justify-center max-h-full tablet:w-full tablet:h-full laptop:h-[377px] desktop:w-full h-[300px]'>
+            {currentView === "maps" && isLoaded === true &&
+                <div className='w-full flex items-center justify-center max-h-full tablet:w-full tablet:h-[377px] laptop:h-[377px] desktop:w-full h-[300px]'>
                     <GoogleMap
                         id="marker-example"
                         zoom={17}
